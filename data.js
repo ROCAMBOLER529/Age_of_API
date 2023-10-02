@@ -1,7 +1,7 @@
 const data = {
     civilization: [{
         "name": {
-            "common": "Assyrians",
+            "common": "Assyrian",
             "historical": "Kingdom of Assyria",
         },
         "information": {
