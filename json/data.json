@@ -1,0 +1,111 @@
+{
+    "civilization": [
+        {
+            "name": {
+                "common": "Assyrians",
+                "historical": "Kingdom of Assyria"
+            },
+            "information": {
+                "architecture": "Egyptian",
+                "continent": "Western Asia",
+                "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+            },
+            "bonuses": {
+                "features": ["Archers", "Siege"],
+                "single_bonus": [
+                    "Villagers move 10% faster",
+                    "Archers fire 33% faster",
+                    "Siege units upgrade cost -50%"
+                ],
+                "team_bonus": "Siege Workshop work 20% faster"
+            },
+            "AI_player_names": [
+                "Tiglathpileser",
+                "Ashurbanipal",
+                "Shalmaneser",
+                "Sargon II",
+                "Adad-Nirari II",
+                "Esharhaddon",
+                "Shalmaneser II",
+                "Sargon",
+                "Adad-Nirari",
+                "Essarhaddon",
+                "Sennacherib",
+                "Shamash",
+                "Ashurnasirpal"
+            ],
+            "units": [
+                "Clubman",
+                "Axeman",
+                "Short Swordsman",
+                "Broad Swordsman",
+                "Long Swordsman",
+                "Legionary",
+
+                "Bowman",
+                "Chariot Archer",
+                "Horse Archer",
+
+                "Scout",
+                "Camel Rider",
+                "Chariot",
+                "Cavalry",
+                "Heavy Cavalry",
+                "Cataphract",
+
+                "Stone Thrower",
+                "Catapult",
+                "Heavy Catapult",
+                "Ballista",
+                "Helepolis",
+
+                "Hoplite",
+
+                "Fishing Boat",
+                "Fishing Ship",
+                "Scout Ship",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "War Galley",
+                "Trireme",
+                "Fire Galley",
+
+                "Priest",
+                "Villger",
+                "Trade Cart"
+            ],
+            "buildings": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House",
+
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm",
+
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate",
+
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        }
+    ]
+}
