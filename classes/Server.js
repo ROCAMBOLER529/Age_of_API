@@ -8,7 +8,7 @@ class Server {
     }
 
     cargarRoutes() {
-        this.app.use("/api", () => {});
+        this.app.use("/api", require('../routes/civilizations'));
     }
 
     listen() {
