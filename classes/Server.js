@@ -1,10 +1,16 @@
 const express = require('express');
+const { tiempo } = require('../middlewares/validarCampos');
 
 class Server {
     constructor() {
         this.app = express();
         this.port = 3000;
+        this.cargarMiddleware();
         this.cargarRoutes();
+    }
+
+    cargarMiddleware() {
+        this.app.use(tiempo);
     }
 
     cargarRoutes() {
