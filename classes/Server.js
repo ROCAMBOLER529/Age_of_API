@@ -1,10 +1,23 @@
+/*
++-------------------+
+|                   |
+| classes/Server.js |
+|                   |
++-------------------+
+*/
+
 const express = require('express');
 
 class Server {
     constructor() {
         this.app = express();
         this.port = 3000;
+        this.cargarMiddlewares();
         this.cargarRoutes();
+    }
+
+    cargarMiddlewares() {
+        this.app.use( express.urlencoded() );
     }
 
     cargarRoutes() {

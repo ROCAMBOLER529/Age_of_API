@@ -106,6 +106,220 @@
                 "Fortified Wall",
                 "Fortified Gate"
             ]
+        },
+        {
+            "name": {
+                "common": "Babylonians",
+                "historical": "Babylonian Empire"
+            },
+            "information": {
+                "architecture": "Mesopotamian",
+                "continent": "Western Asia",
+                "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+            },
+            "bonuses": {
+                "features": ["Defense"],
+                "single_bonus": [
+                    "Stone miners work 20% faster and carry +2 stone",
+                    "Market technologies cost -30%",
+                    "Walls and towers have +60% hit points",
+                    "Priests rejuvenate 30% faster",
+                    "Chariot units have +1 pierce armor"
+                ],
+                "team_bonus": "Builders work 10% faster"
+            },
+            "AI_player_names": [
+                "Hammurabi",
+                "Nebuchadnezzar",
+                "Hammurabi II",
+                "Hammurabi III",
+                "Nebuchad III",
+                "Hammurabi IV",
+                "Nabopolassar",
+                "Sargon",
+                "Belshazzar",
+                "Nabonidus",
+                "Croesus",
+                "Telepinus",
+                "Astyages"
+            ],
+            "units": [
+                "Clubman",
+                "Axeman",
+                "Slinger",
+                "Short Swordsman",
+                "Broad Swordsman",
+                "Long Swordsman",
+                "Legionary",
+
+                "Bowman",
+                "Improved Bowman",
+                "Composite Bowman",
+                "Chariot Archer",
+                "Horse Archer",
+
+                "Scout",
+                "Camel Rider",
+                "Chariot",
+                "Cavalry",
+
+                "Stone Thrower",
+                "Catapult",
+                "Heavy Catapult",
+
+                "Hoplite",
+
+                "Fishing Boat",
+                "Fishing Ship",
+                "Scout Ship",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "War Galley",
+                "Fire Galley",
+
+                "Priest",
+                "Villger",
+                "Trade Cart"
+            ],
+            "buildings": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House",
+
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm",
+
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate",
+
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        {
+            "name": {
+                "common": "Carthaginians",
+                "historical": "Carthaginian Empire"
+            },
+            "information": {
+                "architecture": "Roman",
+                "continent": "North Africa",
+                "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+            },
+            "bonuses": {
+                "features": ["Elephant units", "Camel units", "Navy"],
+                "single_bonus": [
+                    "Start the game with +50 of all resources",
+                    "Academy units and elephant units have +25% hit points, Camel Riders have +15% hit points",
+                    "Fire Galleys have +25% attack",
+                    "Transport ships move 25% faster",
+                    "Nobility free (requires Government Center)"
+                ],
+                "team_bonus": "Fire Galley have +1 pierce armor"
+            },
+            "AI_player_names": [
+                "Dido",
+                "Hamilcar Barca",
+                "Mago",
+                "Hasdrubal",
+                "Hannibal",
+                "Hammurabi IV",
+                "Himilco",
+                "Hanno",
+                "Matho",
+                "Gisco"
+            ],
+            "units": [
+                "Clubman",
+                "Axeman",
+                "Slinger",
+                "Short Swordsman",
+                "Broad Swordsman",
+                "Long Swordsman",
+
+                "Bowman",
+                "Improved Bowman",
+                "Horse Archer",
+                "Elephant Archer",
+
+                "Scout",
+                "Camel Rider",
+                "Cavalry",
+                "Heavy Cavalry",
+                "War Elephant",
+                "Armoured Elephant",
+
+                "Stone Thrower",
+                "Ballista",
+                "Helepolis",
+
+                "Hoplite",
+                "Phalangite",
+                "Centurion",
+
+                "Fishing Boat",
+                "Fishing Ship",
+                "Scout Ship",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "War Galley",
+                "Trireme",
+                "Fire Galley",
+
+                "Priest",
+                "Villger",
+                "Trade Cart"
+            ],
+            "buildings": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House",
+
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm",
+
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate",
+
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
         }
     ]
 }
