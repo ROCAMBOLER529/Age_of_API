@@ -112,27 +112,27 @@
     "usuarios": [
         {
             "nombre": "Usuario1",
-            "password": "contraseña1",
+            "password": "contrasena1",
             "rol": "std"
         },
         {
             "nombre": "Usuario2",
-            "password": "contraseña2",
+            "password": "contrasena2",
             "rol": "admin"
         },
         {
             "nombre": "Usuario3",
-            "password": "contraseña3",
+            "password": "contrasena3",
             "rol": "std"
         },
         {
             "nombre": "Usuario4",
-            "password": "contraseña4",
+            "password": "contrasena4",
             "rol": "std"
         },
         {
             "nombre": "Usuario5",
-            "password": "contraseña5",
+            "password": "contrasena5",
             "rol": "admin"
         }          
     ]
