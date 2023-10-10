@@ -10,11 +10,13 @@ class Server {
     }
 
     cargarMiddleware() {
+        this.app.use( express.urlencoded() );        
         this.app.use(tiempo);
     }
 
     cargarRoutes() {
         this.app.use("/api", require('../routes/civilizations'));
+        this.app.use("/api/auth", require('../routes/auth'));
     }
 
     listen() {

@@ -17,4 +17,4 @@ const validarName = (req, res, next) => {
     }
 }
 
-module.exports = { tiempo, validarName };
+module.exports = { tiempo, validarName};
