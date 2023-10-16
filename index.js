@@ -9,6 +9,7 @@
 // npm init
 // npm i express
 // npm i nodemon -g
+// npm i dotenv
 // npm i express-validator
 // npm i jsonwebtoken
 // npm run devstart

@@ -34,48 +34,56 @@
                 "Shamash",
                 "Ashurnasirpal"
             ],
-            "units": [
-                "Clubman",
-                "Axeman",
-                "Short Swordsman",
-                "Broad Swordsman",
-                "Long Swordsman",
-                "Legionary",
-
-                "Bowman",
-                "Chariot Archer",
-                "Horse Archer",
-
-                "Scout",
-                "Camel Rider",
-                "Chariot",
-                "Cavalry",
-                "Heavy Cavalry",
-                "Cataphract",
-
-                "Stone Thrower",
-                "Catapult",
-                "Heavy Catapult",
-                "Ballista",
-                "Helepolis",
-
-                "Hoplite",
-
-                "Fishing Boat",
-                "Fishing Ship",
-                "Scout Ship",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "War Galley",
-                "Trireme",
-                "Fire Galley",
-
-                "Priest",
-                "Villger",
-                "Trade Cart"
-            ],
+            "units": {
+                "infantry": [
+                    "Clubman",
+                    "Axeman",
+                    "Short Swordsman",
+                    "Broad Swordsman",
+                    "Long Swordsman",
+                    "Legionary"
+                ],
+                "archery": [
+                    "Bowman",
+                    "Chariot Archer",
+                    "Horse Archer"
+                ],
+                "cavalry": [
+                    "Scout",
+                    "Camel Rider",
+                    "Chariot",
+                    "Cavalry",
+                    "Heavy Cavalry",
+                    "Cataphract"
+                ],
+                "siege": [
+                    "Stone Thrower",
+                    "Catapult",
+                    "Heavy Catapult",
+                    "Ballista",
+                    "Helepolis"
+                ],
+                "academy": [
+                    "Hoplite"
+                ],
+                "navy": [
+                    "Fishing Boat",
+                    "Fishing Ship",
+                    "Scout Ship",
+                    "Ligth Transport",
+                    "Heavy Transport",
+                    "Trade Boat",
+                    "Merchant Ship",
+                    "War Galley",
+                    "Trireme",
+                    "Fire Galley"
+                ],
+                "misc": [
+                    "Villager",
+                    "Priest",
+                    "Trade cart"
+                ]
+            },
             "buildings": [
                 "Town Center",
                 "Barracks",
