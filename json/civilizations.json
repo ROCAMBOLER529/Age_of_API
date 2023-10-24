@@ -1,0 +1,1590 @@
+[
+    {
+        "name": {
+            "common": "Assyrians",
+            "historical": "Kingdom of Assyria"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "Egyptian",
+            "continent": "Western Asia",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+        },
+        "bonuses": {
+            "features": ["Archers", "Siege"],
+            "single_bonus": [
+                "Villagers move 10% faster",
+                "Archers fire 33% faster",
+                "Siege units upgrade cost -50%"
+            ],
+            "team_bonus": "Siege Workshop work 20% faster"
+        },
+        "ai_player_names": [
+            "Tiglathpileser",
+            "Ashurbanipal",
+            "Shalmaneser",
+            "Sargon II",
+            "Adad-Nirari II",
+            "Esharhaddon",
+            "Shalmaneser II",
+            "Sargon",
+            "Adad-Nirari",
+            "Essarhaddon",
+            "Sennacherib",
+            "Shamash",
+            "Ashurnasirpal"
+        ],
+        "units": {
+            "infantry": [
+                "Clubman",
+                "Axeman",
+                "Short Swordsman",
+                "Broad Swordsman",
+                "Long Swordsman",
+                "Legionary"
+            ],
+            "archery": [
+                "Bowman",
+                "Chariot Archer",
+                "Horse Archer"
+            ],
+            "cavalry": [
+                "Scout",
+                "Camel Rider",
+                "Chariot",
+                "Cavalry",
+                "Heavy Cavalry",
+                "Cataphract"
+            ],
+            "siege": [
+                "Stone Thrower",
+                "Catapult",
+                "Heavy Catapult",
+                "Ballista",
+                "Helepolis"
+            ],
+            "academy": [
+                "Hoplite"
+            ],
+            "navy": [
+                "Fishing Boat",
+                "Fishing Ship",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "Scout Ship",
+                "War Galley",
+                "Trireme",
+                "Fire Galley"
+            ],
+            "misc": [
+                "Villager",
+                "Priest",
+                "Trade cart"
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House"
+            ],
+            "tool_age": [
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm"
+            ],
+            "bronze_age": [
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate"
+            ],
+            "iron_age": [
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        "tech": {
+            "town_center": [
+                "Tool Age",
+                "City Watch",                
+                "Bronze Age",
+                "Iron Age"
+            ],
+            "barracks": [
+                
+            ],
+            "storage_pit": [
+                "Toolworking",
+                "Leather Armor for Infantry",
+                "Leather Armor for Archers",
+                "Leather Armor for Cavalry",
+
+                "Metalworking",
+                "Scale Armor for Infantry",
+                "Scale Armor for Archery",
+                "Scale Armor for Cavalry",
+
+                "Metalurgy",
+                "Chain Mail for Infantry",
+                "Chain Mail for Archery",
+                "Chain Mail for Cavalry"
+            ],
+            "dock": [
+                
+            ],
+            "granary": [
+                
+            ],
+            "archery_range": [
+                
+            ], 
+            "market": [
+                "Woodworking",
+                "Stone Mining",
+                "Gold Mining",
+                "Domestication",
+
+                "Artesanship",
+                "Plow",
+                "Wheel",
+
+                "Craftmanship",
+                "Siegecraft",
+                "Coinage",
+                "Irrigation"
+            ],
+            "stable": [
+                
+            ],
+            "goverment_center": [
+                "Writing",
+                "Logistics",
+                "Urbanization",
+
+                "Ballistics",
+                "Alchemy",
+                "Engineering",
+                "Conscription"
+            ],
+            "temple": [
+                "Astrology",
+                "Mysticism",
+                "Polytheism",
+
+                "Afterlife",
+                "Monotheism",
+                "Fanaticism",
+
+                "Zealotry",
+                "Medicine",
+                "Theocracy"
+            ],
+            "siege_workshop": [
+                
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Babylonians",
+            "historical": "Babylonian Empire"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "Mesopotamian",
+            "continent": "Western Asia",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+        },
+        "bonuses": {
+            "features": ["Defense"],
+            "single_bonus": [
+                "Stone miners work 20% faster and carry +2 stone",
+                "Market technologies cost -30%",
+                "Walls and towers have +60% hit points",
+                "Priests rejuvenate 30% faster",
+                "Chariot units have +1 pierce armor"
+            ],
+            "team_bonus": "Builders work 10% faster"
+        },
+        "ai_player_names": [
+            "Hammurabi",
+            "Nebuchadnezzar",
+            "Hammurabi II",
+            "Nebuchad II",
+            "Hammurabi III",
+            "Nebuchad III",
+            "Hammurabi IV",
+            "Nebuchad",
+            "Nabopolassar",
+            "Belshazzar",
+            "Nabonidus",
+            "Croesus",
+            "Astyages"
+        ],
+        "units": {
+            "infantry": [
+                "Clubman",
+                "Axeman",
+                "Slinger",
+                "Short Swordsman",
+                "Broad Swordsman",
+                "Long Swordsman",
+                "Legionary"
+            ],
+            "archery": [
+                "Bowman",
+                "Improved Bowman",
+                "Composite Bowman",
+                "Chariot Archer",
+                "Horse Archer"
+            ],
+            "cavalry": [
+                "Scout",
+                "Camel Rider",
+                "Chariot",
+                "Scythe Chariot",
+                "Cavalry"
+            ],
+            "siege": [
+                "Stone Thrower",
+                "Catapult",
+                "Heavy Catapult"
+            ],
+            "academy": [
+                "Hoplite"
+            ],
+            "navy": [
+                "Fishing Boat",
+                "Fishing Ship",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "Scout Ship",
+                "War Galley",
+                "Fire Galley"
+            ],
+            "misc": [
+                "Villager",
+                "Priest",
+                "Trade cart"
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House"
+            ],
+            "tool_age": [
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm"
+            ],
+            "bronze_age": [
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate"
+            ],
+            "iron_age": [
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        "tech": {
+            "town_center": [
+                "Tool Age",
+                "City Watch",                
+                "Bronze Age",
+                "Iron Age"
+            ],
+            "barracks": [
+                
+            ],
+            "storage_pit": [
+                "Toolworking",
+                "Leather Armor for Infantry",
+                "Leather Armor for Archers",
+                "Leather Armor for Cavalry",
+
+                "Metalworking",
+                "Scale Armor for Infantry",
+                "Scale Armor for Archery",
+                "Scale Armor for Cavalry",
+                "Bronze Shield",
+
+                "Metalurgy",
+                "Chain Mail for Infantry",
+                "Chain Mail for Archery",
+                "Chain Mail for Cavalry"
+            ],
+            "dock": [
+                
+            ],
+            "granary": [
+                
+            ],
+            "archery_range": [
+                
+            ], 
+            "market": [
+                "Woodworking",
+                "Stone Mining",
+                "Gold Mining",
+                "Domestication",
+
+                "Artesanship",
+                "Plow",
+                "Wheel",
+
+                "Craftmanship",
+                "Siegecraft",
+                "Coinage",
+                "Irrigation"
+            ],
+            "stable": [
+                
+            ],
+            "goverment_center": [
+                "Nobility",
+                "Writing",
+                "Architecture",
+                "Logistics",
+                "Urbanization",
+
+                "Aristocracy",
+                "Ballistics",
+                "Alchemy",
+                "Engineering",
+                "Conscription"
+            ],
+            "temple": [
+                "Astrology",
+                "Mysticism",
+                "Polytheism",
+
+                "Afterlife",
+                "Monotheism",
+                "Fanaticism",
+
+                "Zealotry",
+                "Medicine",
+                "Theocracy"
+            ],
+            "siege_workshop": [
+                
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Choson",
+            "historical": "Kingdom of Gojoseon"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "East Asian",
+            "continent": "Eastern Asia",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+        },
+        "bonuses": {
+            "features": ["Infantry", "Tower"],
+            "single_bonus": [
+                "Axemen, Short/Broad/Long Swordsmen and Legionaries have +5/+15/+20/+60/+80 hit points",
+                "Storage Pit technologies cost -40%",
+                "Towers have +2 range",
+                "Priests cost -32%"
+            ],
+            "team_bonus": "Buildings have +2 Line of Sight"
+        },
+        "ai_player_names": [
+            "Tan'gun-Wanggom",
+            "Wiman Choson",
+            "Tan'gun II",
+            "Wiman Choson II",
+            "Tan'gun III",
+            "Wiman Choson III",
+            "Tan'gun IV",
+            "Chun",
+            "Ugo",
+            "Wiman",
+            "Wigut'ae",
+            "Uiryo",
+            "Hyon",
+            "Suro"
+        ],
+        "units": {
+            "infantry": [
+                "Clubman",
+                "Axeman",
+                "Slinger",
+                "Short Swordsman",
+                "Broad Swordsman",
+                "Long Swordsman",
+                "Legionary"
+            ],
+            "archery": [
+                "Bowman",
+                "Improved Bowman",
+                "Horse Archer"
+            ],
+            "cavalry": [
+                "Scout",
+                "Cavalry",
+                "Heavy Cavalry",
+                "Cataphract"
+            ],
+            "siege": [
+                "Stone Thrower",
+                "Ballista",
+                "Helepolis"
+            ],
+            "academy": [
+                "Hoplite"
+            ],
+            "navy": [
+                "Fishing Boat",
+                "Fishing Ship",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "Scout Ship",
+                "War Galley"
+            ],
+            "misc": [
+                "Villager",
+                "Priest",
+                "Trade cart"
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House"
+            ],
+            "tool_age": [
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm"
+            ],
+            "bronze_age": [
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate"
+            ],
+            "iron_age": [
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        "tech": {
+            "town_center": [
+                "Tool Age",
+                "City Watch",                
+                "Bronze Age",
+                "Iron Age"
+            ],
+            "barracks": [
+                
+            ],
+            "storage_pit": [
+                "Toolworking",
+                "Leather Armor for Infantry",
+                "Leather Armor for Archers",
+                "Leather Armor for Cavalry",
+
+                "Metalworking",
+                "Scale Armor for Infantry",
+                "Scale Armor for Archery",
+                "Scale Armor for Cavalry",
+                "Bronze Shield",
+
+                "Metalurgy"
+            ],
+            "dock": [
+                
+            ],
+            "granary": [
+                
+            ],
+            "archery_range": [
+                
+            ], 
+            "market": [
+                "Woodworking",
+                "Stone Mining",
+                "Gold Mining",
+                "Domestication",
+
+                "Artesanship",
+                "Plow",
+                "Wheel",
+
+                "Craftmanship",
+                "Siegecraft",
+                "Coinage",
+                "Irrigation"
+            ],
+            "stable": [
+                
+            ],
+            "goverment_center": [
+                "Nobility",
+                "Writing",
+                "Architecture",
+                "Logistics",
+
+                "Ballistics",
+                "Conscription"
+            ],
+            "temple": [
+                "Astrology",
+                "Mysticism",
+                "Polytheism",
+
+                "Afterlife",
+                "Monotheism",
+                "Fanaticism",
+
+                "Zealotry",
+                "Medicine",
+                "Theocracy"
+            ],
+            "siege_workshop": [
+                
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Egyptians",
+            "historical": "Egyptian Kingdom"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "Egyptian",
+            "continent": "North Africa",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+        },
+        "bonuses": {
+            "features": ["Chariots", "Priests"],
+            "single_bonus": [
+                "Farms cost -20%",
+                "Gold Miners work 20% faster and carry +2 gold",
+                "Chariot units have +33% hit points",
+                "Priests have +3 range"
+            ],
+            "team_bonus": "Priests have +1 pierce armor"
+        },
+        "ai_player_names": [
+            "Ramses",
+            "Thutmose",
+            "Ramses II",
+            "Thutmose II",
+            "Ramses III",
+            "Thutmose III",
+            "Ramses IV",
+            "Amosis",
+            "Necho",
+            "Seti",
+            "Haremhab",
+            "Amenophis",
+            "Hatshepsut",
+            "Menes"
+        ],
+        "units": {
+            "infantry": [
+                "Clubman",
+                "Axeman",
+                "Slinger",
+                "Short Swordsman"
+            ],
+            "archery": [
+                "Bowman",
+                "Improved Bowman",
+                "Composite Bowman",
+                "Chariot Archer",
+                "Elephant Archer"
+            ],
+            "cavalry": [
+                "Scout",
+                "Camel Rider",
+                "Chariot",
+                "Scythe Chariot",
+                "War Elephant"
+            ],
+            "siege": [
+                "Stone Thrower"
+            ],
+            "academy": [
+                "Hoplite"
+            ],
+            "navy": [
+                "Fishing Boat",
+                "Fishing Ship",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "Scout Ship",
+                "War Galley",
+                "Trireme",
+                "Catapult Trireme",
+                "Juggernaut"
+            ],
+            "misc": [
+                "Villager",
+                "Priest",
+                "Trade cart"
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House"
+            ],
+            "tool_age": [
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm"
+            ],
+            "bronze_age": [
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate"
+            ],
+            "iron_age": [
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        "tech": {
+            "town_center": [
+                "Tool Age",
+                "City Watch",                
+                "Bronze Age",
+                "Iron Age"
+            ],
+            "barracks": [
+                
+            ],
+            "storage_pit": [
+                "Toolworking",
+                "Leather Armor for Infantry",
+                "Leather Armor for Archers",
+                "Leather Armor for Cavalry",
+
+                "Metalworking",
+                "Scale Armor for Infantry",
+                "Scale Armor for Archery",
+                "Scale Armor for Cavalry",
+
+                "Metalurgy",
+                "Chain Mail for Infantry",
+                "Chain Mail for Archery",
+                "Chain Mail for Cavalry"
+            ],
+            "dock": [
+                
+            ],
+            "granary": [
+                
+            ],
+            "archery_range": [
+                
+            ], 
+            "market": [
+                "Woodworking",
+                "Stone Mining",
+                "Gold Mining",
+                "Domestication",
+
+                "Artesanship",
+                "Plow",
+                "Wheel",
+
+                "Craftmanship",
+                "Coinage",
+                "Irrigation"
+            ],
+            "stable": [
+                
+            ],
+            "goverment_center": [
+                "Nobility",
+                "Writing",
+                "Architecture",
+                "Logistics",
+                "Urbanization",
+
+                "Aristocracy",
+                "Ballistics",
+                "Alchemy",
+                "Engineering",
+                "Conscription"
+            ],
+            "temple": [
+                "Astrology",
+                "Mysticism",
+                "Polytheism",
+
+                "Afterlife",
+                "Monotheism",
+                "Fanaticism",
+
+                "Zealotry",
+                "Medicine",
+                "Theocracy"
+            ],
+            "siege_workshop": [
+                
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Greeks",
+            "historical": "Greek Civilization"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "Greek",
+            "continent": "Southeast Europe",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+        },
+        "bonuses": {
+            "features": ["Infantry", "Navy"],
+            "single_bonus": [
+                "Town Centers work 10% faster starting from Tool Age",
+                "Academy units move 30% faster and cost -20%",
+                "Ships move 20% faster",
+                "Polytheism and Astrology free (requires Temple)"
+            ],
+            "team_bonus": "Markets cost -50%"
+        },
+        "ai_player_names": [
+            "Alexander",
+            "Achilles",
+            "Pericles",
+            "Miltiades",
+            "Leonidas",
+            "Themistocles",
+            "Alexander II",
+            "Lysander",
+            "Alcibiades",
+            "Cleon"
+        ],
+        "units": {
+            "infantry": [
+                "Clubman",
+                "Axeman",
+                "Slinger",
+                "Short Swordsman"
+            ],
+            "archery": [
+                "Bowman"
+            ],
+            "cavalry": [
+                "Scout",
+                "Cavalry",
+                "Heavy Cavalry"
+            ],
+            "siege": [
+                "Stone Thrower",
+                "Catapult",
+                "Heavy Catapult",
+                "Ballista",
+                "Helepolis"
+            ],
+            "academy": [
+                "Hoplite",
+                "Phalangite",
+                "Centurion"
+            ],
+            "navy": [
+                "Fishing Boat",
+                "Fishing Ship",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "Scout Ship",
+                "War Galley",
+                "Trireme",
+                "Catapult Trireme",
+                "Juggernaut",
+                "Fire Galley"
+            ],
+            "misc": [
+                "Villager",
+                "Priest",
+                "Trade cart"
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House"
+            ],
+            "tool_age": [
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm"
+            ],
+            "bronze_age": [
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate"
+            ],
+            "iron_age": [
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        "tech": {
+            "town_center": [
+                "Tool Age",
+                "City Watch",                
+                "Bronze Age",
+                "Iron Age"
+            ],
+            "barracks": [
+                
+            ],
+            "storage_pit": [
+                "Toolworking",
+                "Leather Armor for Infantry",
+                "Leather Armor for Archers",
+                "Leather Armor for Cavalry",
+
+                "Metalworking",
+                "Scale Armor for Infantry",
+                "Scale Armor for Archery",
+                "Scale Armor for Cavalry",
+                "Bronze Shield",
+
+                "Chain Mail for Infantry",
+                "Chain Mail for Archery",
+                "Chain Mail for Cavalry",
+                "Iron Shield",
+                "Tower Shield"
+            ],
+            "dock": [
+                
+            ],
+            "granary": [
+                
+            ],
+            "archery_range": [
+                
+            ], 
+            "market": [
+                "Woodworking",
+                "Stone Mining",
+                "Gold Mining",
+                "Domestication",
+
+                "Artesanship",
+                "Plow",
+                "Wheel",
+
+                "Craftmanship",
+                "Siegecraft",
+                "Coinage",
+                "Irrigation"
+            ],
+            "stable": [
+                
+            ],
+            "goverment_center": [
+                "Nobility",
+                "Writing",
+                "Architecture",
+                "Logistics",
+                "Urbanization",
+
+                "Aristocracy",
+                "Ballistics",
+                "Alchemy",
+                "Engineering"
+            ],
+            "temple": [
+                "Astrology",
+                "Mysticism",
+                "Polytheism",
+
+                "Afterlife",
+                "Monotheism",
+                "Fanaticism",
+
+                "Zealotry",
+                "Medicine",
+                "Theocracy"
+            ],
+            "siege_workshop": [
+                
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Hittites",
+            "historical": "Hittite Empire"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "Egyptian",
+            "continent": "Western Asia",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+        },
+        "bonuses": {
+            "features": ["Archers", "Siege"],
+            "single_bonus": [
+                "All archers have +1 attack",
+                "Stone Thrower, Catapult, and Heavy Catapult have +50% hit points",
+                "War ships (except Fire Galley) have +1/+2/+3 range in the Tool/Bronze/Iron Age",
+                "Wheel -50% cost and research time"
+            ],
+            "team_bonus": "Towers provide +4 population room"
+        },
+        "ai_player_names": [
+            "Mursuli",
+            "Suppiluliuma",
+            "Mursuli II",
+            "Suppiluliuma III",
+            "Mursuli III",
+            "Suppiluliuma V",
+            "Mursuli IV",
+            "Ullukummis",
+            "Hattushilish",
+            "Tudhalyas",
+            "Labarnas",
+            "Annitas",
+            "Pitkhanas",
+            "Kumarbis"
+        ],
+        "units": {
+            "infantry": [
+                "Clubman",
+                "Axeman",
+                "Short Swordsman",
+                "Broad Swordsman"
+            ],
+            "archery": [
+                "Bowman",
+                "Chariot Archer",
+                "Horse Archer",
+                "Heavy Horse Archer",
+                "Elephant Archer"
+            ],
+            "cavalry": [
+                "Scout",
+                "Camel Rider",
+                "Chariot",
+                "Scythe Chariot",
+                "War Elephant",
+                "Armored Elephant"                
+            ],
+            "siege": [
+                "Stone Thrower",
+                "Catapult",
+                "Heavy Catapult"
+            ],
+            "academy": [
+                "Hoplite",
+                "Phalangite"
+            ],
+            "navy": [
+                "Fishing Boat",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "Scout Ship",
+                "War Galley",
+                "Trireme",
+                "Fire Galley"
+            ],
+            "misc": [
+                "Villager",
+                "Priest",
+                "Trade cart"
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House"
+            ],
+            "tool_age": [
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm"
+            ],
+            "bronze_age": [
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate"
+            ],
+            "iron_age": [
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        "tech": {
+            "town_center": [
+                "Tool Age",
+                "City Watch",                
+                "Bronze Age",
+                "Iron Age"
+            ],
+            "barracks": [
+                
+            ],
+            "storage_pit": [
+                "Toolworking",
+                "Leather Armor for Infantry",
+                "Leather Armor for Archers",
+                "Leather Armor for Cavalry",
+
+                "Metalworking",
+                "Scale Armor for Infantry",
+                "Scale Armor for Archery",
+                "Scale Armor for Cavalry",
+                "Bronze Shield",
+
+                "Chain Mail for Infantry",
+                "Chain Mail for Archery",
+                "Chain Mail for Cavalry",
+                "Iron Shield",
+                "Tower Shield"
+            ],
+            "dock": [
+                
+            ],
+            "granary": [
+                
+            ],
+            "archery_range": [
+                
+            ], 
+            "market": [
+                "Woodworking",
+                "Stone Mining",
+                "Gold Mining",
+                "Domestication",
+
+                "Artesanship",
+                "Plow",
+                "Wheel",
+
+                "Craftmanship",
+                "Siegecraft",
+                "Coinage"
+            ],
+            "stable": [
+                
+            ],
+            "goverment_center": [
+                "Nobility",
+                "Writing",
+                "Logistics",
+
+                "Aristocracy",
+                "Ballistics",
+                "Alchemy",
+                "Engineering"
+            ],
+            "temple": [
+                "Astrology"
+            ],
+            "siege_workshop": [
+                
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Minoans",
+            "historical": "Minoan Civilization"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "Greek",
+            "continent": "Southeast Europe",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+        },
+        "bonuses": {
+            "features": ["Archers", "Navy"],
+            "single_bonus": [
+                "Ships cost -30%",
+                "Improved Bowman-line +1/+2 range in the Bronze/Iron Age",
+                "Farmers work 10% faster"
+            ],
+            "team_bonus": "Docks cost -20%"
+        },
+        "ai_player_names": [
+            "Minos",
+            "Rhadamanthys",
+            "Minos II",
+            "Rhadamanthys II",
+            "Minos III",
+            "Rhadamanthys III",
+            "Minos IV",
+            "Sarpedon",
+            "Erythrus",
+            "Gortys",
+            "Aiakos",
+            "Androgeous",
+            "Pasiphae",
+            "Aeacus"
+        ],
+        "units": {
+            "infantry": [
+                "Clubman",
+                "Axeman",
+                "Short Swordsman",
+                "Broad Swordsman",
+                "Long Swordsman"
+            ],
+            "archery": [
+                "Bowman",
+                "Improved Bowman",
+                "Composite Bowman"
+            ],
+            "cavalry": [
+                "Scout",
+                "Camel Rider",
+                "Cavalry"
+            ],
+            "siege": [
+                "Stone Thrower",
+                "Catapult",
+                "Heavy Catapult",
+                "Ballista",
+                "Helepolis"
+            ],
+            "academy": [
+                "Hoplite",
+                "Phalangite",
+                "Centurion"
+            ],
+            "navy": [
+                "Fishing Boat",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "Scout Ship",
+                "War Galley",
+                "Trireme"
+            ],
+            "misc": [
+                "Villager",
+                "Priest",
+                "Trade cart"
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House"
+            ],
+            "tool_age": [
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm"
+            ],
+            "bronze_age": [
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Academy",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate"
+            ],
+            "iron_age": [
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        "tech": {
+            "town_center": [
+                "Tool Age",
+                "City Watch",                
+                "Bronze Age",
+                "Iron Age"
+            ],
+            "barracks": [
+                
+            ],
+            "storage_pit": [
+                "Toolworking",
+                "Leather Armor for Infantry",
+                "Leather Armor for Archers",
+                "Leather Armor for Cavalry",
+
+                "Metalworking",
+                "Scale Armor for Infantry",
+                "Scale Armor for Archery",
+                "Scale Armor for Cavalry",
+                "Bronze Shield",
+
+                "Chain Mail for Infantry",
+                "Chain Mail for Archery",
+                "Chain Mail for Cavalry",
+                "Iron Shield",
+                "Tower Shield"
+            ],
+            "dock": [
+                
+            ],
+            "granary": [
+                
+            ],
+            "archery_range": [
+                
+            ], 
+            "market": [
+                "Woodworking",
+                "Stone Mining",
+                "Gold Mining",
+                "Domestication",
+
+                "Artesanship",
+                "Plow",
+                "Wheel",
+
+                "Craftmanship",
+                "Siegecraft",
+                "Coinage",
+                "Irrigation"
+            ],
+            "stable": [
+                
+            ],
+            "goverment_center": [
+                "Nobility",
+                "Writing",
+                "Architecture",
+                "Logistics",
+
+                "Aristocracy",
+                "Ballistics",
+                "Alchemy",
+                "Engineering",
+                "Conscription"
+            ],
+            "temple": [
+                "Medicine",
+                "Polytheism"
+            ],
+            "siege_workshop": [
+                
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Persians",
+            "historical": "Achaemenid Empire"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "Mesopotamian",
+            "continent": "Asia",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/f/f8/Assyrian_AOE_DE_ROR_icon.png/revision/latest?cb=20230611040714"
+        },
+        "bonuses": {
+            "features": ["Elephant units", "Navy"],
+            "single_bonus": [
+                "Hunters work 30% faster and carry +3 food.",
+                "Elephant units move 25% faster.",
+                "Scout Ship line fires 18%/25%/33% faster in the Tool/Bronze/Iron Age.",
+                "Walls cost -20%."
+            ],
+            "team_bonus": "Stables work 20% faster."
+        },
+        "ai_player_names": [
+            "Cyrus",
+            "Darius",
+            "Cyrus II",
+            "Darius II",
+            "Xerxes",
+            "Xerxes II",
+            "Cyrus III",
+            "Cambyses",
+            "Datis",
+            "Bessus",
+            "Mardonius",
+            "Spitamenes",
+            "Artaphernes"
+        ],
+        "units": {
+            "infantry": [
+                "Clubman",
+                "Axeman",
+                "Short Swordsman",
+                "Broad Swordsman",
+                "Long Swordsman",
+                "Legionary"
+            ],
+            "archery": [
+                "Bowman",
+                "Improved Bowman",
+                "Composite Bowman",
+                "Horse Archer",
+                "Heavy Horse Archer",
+                "Elephant Archer"
+            ],
+            "cavalry": [
+                "Scout",
+                "Camel Rider",
+                "Cavalry",
+                "Heavy Cavalry",
+                "Cataphract",
+                "War Elephant",
+                "Armored Elephant"
+            ],
+            "siege": [
+                "Stone Thrower",
+                "Catapult"
+            ],
+            "navy": [
+                "Fishing Boat",
+                "Ligth Transport",
+                "Heavy Transport",
+                "Trade Boat",
+                "Merchant Ship",
+                "Scout Ship",
+                "War Galley",
+                "Trireme",
+                "Catapult Trireme",
+                "Juggernaut"
+            ],
+            "misc": [
+                "Villager",
+                "Priest",
+                "Trade cart"
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                "Town Center",
+                "Barracks",
+                "Storage Pit",
+                "Dock",
+                "Granary",
+                "House"
+            ],
+            "tool_age": [
+                "Archery Range",
+                "Market",
+                "Watch Tower",
+                "Stable",
+                "Small Wall",
+                "Small Gate",
+                "Farm"
+            ],
+            "bronze_age": [
+                "Goverment Center",
+                "Temple",
+                "Siege Workshop",
+                "Sentry Tower",
+                "Medium Wall",
+                "Medium Gate"
+            ],
+            "iron_age": [
+                "Wonder",
+                "Guard Tower",
+                "Ballista Tower",
+                "Fortified Wall",
+                "Fortified Gate"
+            ]
+        },
+        "tech": {
+            "town_center": [
+                "Tool Age",          
+                "Bronze Age",
+                "Iron Age"
+            ],
+            "barracks": [
+                
+            ],
+            "storage_pit": [
+                "Toolworking",
+                "Leather Armor for Infantry",
+                "Leather Armor for Archers",
+                "Leather Armor for Cavalry",
+
+                "Metalworking",
+                "Scale Armor for Infantry",
+                "Scale Armor for Archery",
+                "Scale Armor for Cavalry",
+                "Bronze Shield",
+
+                "Chain Mail for Infantry",
+                "Chain Mail for Archery",
+                "Chain Mail for Cavalry",
+                "Iron Shield",
+                "Tower Shield"
+            ],
+            "dock": [
+                
+            ],
+            "granary": [
+                
+            ],
+            "archery_range": [
+                
+            ], 
+            "market": [
+                "Woodworking",
+                "Stone Mining",
+                "Gold Mining",
+                "Domestication",
+
+                "Artesanship",
+                "Plow",
+                "Wheel",
+
+                "Coinage"
+            ],
+            "stable": [
+                
+            ],
+            "goverment_center": [
+                "Nobility",
+                "Writing",
+                "Architecture",
+                "Logistics",
+                "Urbanization",
+
+                "Aristocracy",
+                "Ballistics",
+                "Alchemy",
+                "Engineering",
+                "Conscription"
+            ],
+            "temple": [
+                "Astrology",
+                "Mysticism",
+                "Polytheism",
+                
+                "Afterlife",
+                "Monotheism",
+                "Fanaticism",
+
+                "Zealotry",
+                "Medicine",
+                "Theocracy"
+            ],
+            "siege_workshop": [
+                
+            ]
+        }
+    }
+]

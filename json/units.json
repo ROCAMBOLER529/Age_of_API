@@ -1,0 +1,46 @@
+{
+    "infantry": [
+        {
+            "name": "Clubman",
+            "age": "Stone Age",
+            "hero": false,
+            "cheat": false,
+            "training": {
+                "trained_at": "Barracks",
+                "resources": {
+                    "food": 50,
+                    "wood": 0,
+                    "stone": 0,
+                    "gold": 0
+                },
+                "time_in_seconds": 26 
+            },
+            "statistics": {
+                "HP": 40,
+                "melee_attack": 3,
+                "rate": 1.5,
+                "melee_armor": 0,
+                "pierce_armor": 0,
+                "armor_class": "Light infantry",
+                "speed": 1,
+                "line_of_sight": 4
+            }
+        }
+    ],
+
+    "archery": [
+
+    ],
+
+    "cavalry": [
+
+    ],
+
+    "siege": [
+
+    ],
+
+    "misc": [
+
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "stone_age": [
+        {
+            "name": "Town Center",
+            "type": ["Economic"],
+            "hero": false,
+            "population": 4,
+            "construction": {
+                "require": "Goverment Center",
+                "resources": {
+                    "food": 0,
+                    "wood": 200,
+                    "stone": 0,
+                    "gold": 0
+                },
+                "time_in_seconds": "60"
+            },
+            "statistics": {
+                "size_in_tiles": "3x3",
+                "HP": 600,
+                "garrison": 15,
+                "melee_armor": 0,
+                "pierce_armor": 0,
+                "line_of_sight": 7
+            },
+            "tech": [
+                "Tool Age",
+                "City Watch",
+                "Bronze Age",
+                "Iron Age"
+            ]
+        },
+        {
+            "name": "Barracks",
+            "type": ["Economic"],
+            "hero": false,
+            "population": 0,
+            "construction": {
+                "require": "",
+                "resources": {
+                    "food": 0,
+                    "wood": 200,
+                    "stone": 0,
+                    "gold": 0
+                },
+                "time_in_seconds": "60"
+            },
+            "statistics": {
+                "size_in_tiles": "3x3",
+                "HP": 600,
+                "garrison": 15,
+                "melee_armor": 0,
+                "pierce_armor": 0,
+                "line_of_sight": 7
+            },
+            "tech": [
+                "Tool Age",
+                "City Watch",
+                "Bronze Age",
+                "Iron Age"
+            ]
+        }
+    ]
+}
