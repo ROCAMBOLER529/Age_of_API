@@ -1,0 +1,18 @@
+{
+    "stone_age": [
+        {
+            "name": "Tool Age",
+            "research": {
+                "require": ["Barracks", "Docks", "Granary", "Storage Pit"],
+                "research_at": "Town Center",
+                "resources": {
+                    "food": 500,
+                    "wood": 0,
+                    "stone": 0,
+                    "gold": 0
+                },
+                "time": 120
+            }
+        }
+    ]
+}
