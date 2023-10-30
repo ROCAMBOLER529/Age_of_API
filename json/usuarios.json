@@ -1,0 +1,32 @@
+[
+    {
+        "name": "aa",
+        "password": "aa",
+        "rol": "std"
+    },
+    {
+        "name": "bb",
+        "password": "bb",
+        "rol": "std"
+    },
+    {
+        "name": "cc",
+        "password": "cc",
+        "rol": "std"
+    },
+    {
+        "name": "dd",
+        "password": "dd",
+        "rol": "mod"
+    },
+    {
+        "name": "ee",
+        "password": "ee",
+        "rol": "mod"
+    },
+    {
+        "name": "ff",
+        "password": "ff",
+        "rol": "adm"
+    }
+]

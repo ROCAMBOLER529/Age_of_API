@@ -1,0 +1,955 @@
+{
+    "market": [
+        {
+            "id": 31201,
+            "name": "Woodworking",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "woodworking.png",
+            "effects": {
+                "wood_work_rate": 0.2,
+                "wood_work_amount": 2,
+                "missile_rangee": 1
+            },
+            "research": {
+                "requisite_for": 31301,
+                "resources": {
+                    "food": 120,
+                    "wood": 75
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 31301,
+            "name": "Artisanship",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "artisanship.png",
+            "effects": {
+                "wood_work_rate": 0.2,
+                "wood_work_amount": 2,
+                "missile_range": 1
+            },
+            "research": {
+                "prerequisite": 31201,
+                "requisite_for": 31401,
+                "resources": {
+                    "food": 170,
+                    "wood": 150
+                }
+            },
+            "time_in_seconds": 80
+        },
+        {
+            "id": 31401,
+            "name": "Craftsmanship",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "craftsmanship.png",
+            "effects": {
+                "wood_work_rate": 0.2,
+                "wood_work_amount": 2,
+                "missile_range": 1
+            },
+            "research": {
+                "prerequisite": 31301,
+                "resources": {
+                    "food": 240,
+                    "wood": 200
+                }
+            },
+            "time_in_seconds": 100
+        },
+        {
+            "id": 31202,
+            "name": "Stone Mining",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "stone_mining(1).png",
+            "effects": {
+                "stone_work_rate": 0.3,
+                "stone_work_amount": 3,
+                "slingers_attack_range_LOS": 1
+            },
+            "research": {
+                "requisite_for": 31402,
+                "resources": {
+                    "food": 100,
+                    "stone": 50
+                }
+            },
+            "time_in_seconds": 30
+        },
+        {
+            "id": 31402,
+            "name": "Siegecraft",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "siegecraft.png",
+            "effects": {
+                "stone_work_rate": 0.3,
+                "stone_work_amount": 3,
+                "villagers_attack_walls": 1,
+                "slingers_attack_range_LOS_increase": 1
+            },
+            "research": {
+                "prerequisite": 31202,
+                "resources": {
+                    "food": 190,
+                    "stone": 100
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 31203,
+            "name": "Gold Mining",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "gold_mining(1).png",
+            "effects": {
+                "gold_work_rate": 0.3,
+                "gold_work_amount": 3
+            },
+            "research": {
+                "requisite_for": 31403,
+                "resources": {
+                    "food": 120,
+                    "wood": 100
+                }
+            },
+            "time_in_seconds": 50
+        },
+        {
+            "id": 31403,
+            "name": "Coinage",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "gold_mining(1).png",
+            "effects": {
+                "gold_mine_productivity_increase": 0.25,
+                "free_tribute": true,
+                "gold_work_rate_increase": 0.33,
+                "gold_work_amount_increase": 3
+            },
+            "research": {
+                "prerequisite": 31203,
+                "resources": {
+                    "food": 200,
+                    "gold": 100
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 31204,
+            "name": "Domestication",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "domestication(1).png",
+            "effects": {
+                "food_amount_on_farms_increase": 75
+            },
+            "research": {
+                "requisite_for": 31302,
+                "resources": {
+                    "food": 150,
+                    "gold": 50
+                }
+            },
+            "time_in_seconds": 40
+        },
+        {
+            "id": 31302,
+            "name": "Plow",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "plow(1).png",
+            "effects": {
+                "food_amount_on_farms_increase": 100
+            },
+            "research": {
+                "prerequisite": 31204,
+                "requisite_for": 31404,
+                "resources": {
+                    "food": 250,
+                    "wood": 75
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 31404,
+            "name": "Irrigation",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "irrigation(1).png",
+            "effects": {
+                "food_amount_on_farms_increase": 125
+            },
+            "research": {
+                "prerequisite": 31302,
+                "resources": {
+                    "food": 300,
+                    "wood": 100
+                }
+            },
+            "time_in_seconds": 100
+        },
+        {
+            "id": 31303,
+            "name": "Wheel",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "irrigation(1).png",
+            "effects": {
+                "food_amount_on_farms_increase": 125
+            },
+            "research": {
+                "requisite_for": ["Chariot", "Chariot Archer", "Trade Cart"],
+                "resources": {
+                    "food": 175,
+                    "wood": 75
+                }
+            },
+            "time_in_seconds": 75
+        }
+    ],
+    "temple": [
+        {
+            "id": 32301,
+            "name": "Polytheism",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "polytheism.png",
+            "effects": {
+                "priest_speed_increase": 0.4
+            },
+            "research": {
+                "resources": {
+                    "gold": 120
+                }
+            },
+            "time_in_seconds": 50
+        },
+        {
+            "id": 32302,
+            "name": "Mysticism",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "mysticism.png",
+            "effects": {
+                "priest_hp_increase": 1.0
+            },
+            "research": {
+                "resources": {
+                    "gold": 120
+                }
+            },
+            "time_in_seconds": 50
+        },
+        {
+            "id": 32303,
+            "name": "Astrology",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "mysticism.png",
+            "effects": {
+                "priest_conversion_effectivenes": 0.3,
+                "priest_healing_rate_increase": 0.3
+            },
+            "research": {
+                "resources": {
+                    "gold": 175
+                }
+            },
+            "time_in_seconds": 50
+        },
+        {
+            "id": 32304,
+            "name": "Medicine",
+            "introduced": "Rise of Rome",
+            "age": 4,
+            "image": "medicine.png",
+            "effects": {
+                "priest_healing_rate_increase": 1.0
+            },
+            "research": {
+                "resources": {
+                    "gold": 150
+                }
+            },
+            "time_in_seconds": 50
+        },
+        {
+            "id": 32305,
+            "name": "Monotheism",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "monotheism.png",
+            "effects": {
+                "priest_can_convert_buildings": true,
+                "priest_can_convert_other_priest": true
+            },
+            "research": {
+                "resources": {
+                    "gold": 350
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 32306,
+            "name": "Afterlife",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "afterlife.png",
+            "effects": {
+                "priest_conversion_range": 3,
+                "priest_los": 3
+            },
+            "research": {
+                "resources": {
+                    "gold": 275
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 32307,
+            "name": "Fanaticism",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "fanaticism.png",
+            "effects": {
+                "priest_rejuvenate_speed": 0.5
+            },
+            "research": {
+                "resources": {
+                    "gold": 150
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 32308,
+            "name": "Theocracy",
+            "introduced": "Return of Rome",
+            "age": 4,
+            "image": "theocracy(1).png",
+            "effects": {
+                "all_priest_must_rest_after_converting": false
+            },
+            "research": {
+                "resources": {
+                    "gold": 400
+                }
+            },
+            "time_in_seconds": 100
+        },
+        {
+            "id": 32309,
+            "name": "Sacrifice",
+            "introduced": "Rise of Rome",
+            "age": 4,
+            "image": "sacrifice.png",
+            "effects": {
+                "sacrifice_priest_to_instantly_convert": true
+            },
+            "research": {
+                "resources": {
+                    "gold": 400
+                }
+            },
+            "time_in_seconds": 100
+        }
+    ],
+    "storage_pit": [
+        {
+            "id": 33201,
+            "name": "Toolworking",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "toolworking.png",
+            "effects": {
+                "melee_units_attack": 2
+            },
+            "research": {
+                "requisite_for": 33301,
+                "resources": {
+                    "food": 100
+                }
+            },
+            "time_in_seconds": 40
+        },
+        {
+            "id": 33301,
+            "name": "Metalworking",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "metalworking.png",
+            "effects": {
+                "melee_units_attack": 2
+            },
+            "research": {
+                "prerequisite": 33201,
+                "requisite_for": 33401,
+                "resources": {
+                    "food": 200,
+                    "gold": 120
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 33401,
+            "name": "Metallurgy",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "metalworking.png",
+            "effects": {
+                "melee_units_attack": 3
+            },
+            "research": {
+                "prerequisite": 33301,
+                "resources": {
+                    "food": 300,
+                    "gold": 180
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 33202,
+            "name": "Leather Armor Infantry",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "leather_armor_infantry.png",
+            "effects": {
+                "infantry_melee_armor": 2
+            },
+            "research": {
+                "requisite_for": 33302,
+                "resources": {
+                    "food": 75
+                }
+            },
+            "time_in_seconds": 30
+        },
+        {
+            "id": 33302,
+            "name": "Scale Armor Infantry",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "scale_armor_infatry.png",
+            "effects": {
+                "infantry_melee_armor": 2
+            },
+            "research": {
+                "prerequisite": 33202,
+                "requisite_for": 33402,
+                "resources": {
+                    "food": 100,
+                    "gold": 50
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 33402,
+            "name": "Chain Mail Infantry",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "chain_mail_infatry.png",
+            "effects": {
+                "infantry_melee_armor": 2
+            },
+            "research": {
+                "prerequisite": 33302,
+                "resources": {
+                    "food": 125,
+                    "gold": 100
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 33203,
+            "name": "Leather Armor Cavalry",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "leather_armor_cavalry.png",
+            "effects": {
+                "cavalry_melee_armor": 2
+            },
+            "research": {
+                "requisite_for": 33303,
+                "resources": {
+                    "food": 125
+                }
+            },
+            "time_in_seconds": 30
+        },
+        {
+            "id": 33303,
+            "name": "Scale Armor Cavalry",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "scale_armor_cavalry.png",
+            "effects": {
+                "cavalry_melee_armor": 2
+            },
+            "research": {
+                "prerequisite": 33203,
+                "requisite_for": 33403,
+                "resources": {
+                    "food": 150,
+                    "gold": 50
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 33403,
+            "name": "Chain Mail Cavalry",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "chain_mail_cavalry.png",
+            "effects": {
+                "cavalry_melee_armor": 2
+            },
+            "research": {
+                "prerequisite": 33303,
+                "resources": {
+                    "food": 175,
+                    "gold": 100
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 33204,
+            "name": "Leather Armor Archers",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "leather_armor_archers.png",
+            "effects": {
+                "archer_melee_armor": 2
+            },
+            "research": {
+                "requisite_for": 33304,
+                "resources": {
+                    "food": 100
+                }
+            },
+            "time_in_seconds": 30
+        },
+        {
+            "id": 33304,
+            "name": "Scale Armor Archers",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "scale_armor_archer.png",
+            "effects": {
+                "archer_melee_armor": 2
+            },
+            "research": {
+                "prerequisite": 33204,
+                "requisite_for": 33404,
+                "resources": {
+                    "food": 125,
+                    "gold": 50
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 33404,
+            "name": "Chain Mail Archers",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "chain_mail_archers.png",
+            "effects": {
+                "archer_melee_armor": 2
+            },
+            "research": {
+                "prerequisite": 33304,
+                "resources": {
+                    "food": 150,
+                    "gold": 100
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 33305,
+            "name": "Bronze Shield",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "bronze_shields.png",
+            "effects": {
+                "infantry_pierce_armor": 2
+            },
+            "research": {
+                "requisite_for": 33405,
+                "resources": {
+                    "food": 150,
+                    "gold": 180
+                }
+            },
+            "time_in_seconds": 50
+        },
+        {
+            "id": 33405,
+            "name": "Iron Shield",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "iron_shields.png",
+            "effects": {
+                "infantry_pierce_armor": 1
+            },
+            "research": {
+                "prerequisite": 33305,
+                "requisite_for": 33406,
+                "resources": {
+                    "food": 200,
+                    "gold": 320
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 33406,
+            "name": "Tower Shield",
+            "introduced": "Rise of Rome",
+            "age": 4,
+            "image": "tower_shields.png",
+            "effects": {
+                "infantry_pierce_armor": 1
+            },
+            "research": {
+                "prerequisite": 33405,
+                "resources": {
+                    "food": 250,
+                    "gold": 400
+                }
+            },
+            "time_in_seconds": 100
+        }
+    ],
+    "goverment_center": [
+        {
+            "id": 34301,
+            "name": "Nobility",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "nobility.png",
+            "effects": {
+                "cavalry_hp_exclude_elephant": 0.15
+            },
+            "research": {
+                "resources": {
+                    "food": 175,
+                    "gold": 125
+                }
+            },
+            "time_in_seconds": 70
+        },
+        {
+            "id": 34302,
+            "name": "Writing",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "writing.png",
+            "effects": {
+                "share_exploration": true
+            },
+            "research": {
+                "resources": {
+                    "food": 200,
+                    "gold": 75
+                }
+            },
+            "time_in_seconds": 30
+        },
+        {
+            "id": 34303,
+            "name": "Architecture",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "architecture.png",
+            "effects": {
+                "buildings_hp": 0.2,
+                "construction_time": -0.33
+            },
+            "research": {
+                "resources": {
+                    "food": 150,
+                    "gold": 175
+                }
+            },
+            "time_in_seconds": 50
+        },
+        {
+            "id": 34304,
+            "name": "Logistics",
+            "introduced": "Rise of Rome",
+            "age": 3,
+            "image": "logistics.png",
+            "effects": {
+                "infantry_units_population": 0.5
+            },
+            "research": {
+                "resources": {
+                    "food": 180,
+                    "gold": 100
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 34305,
+            "name": "Urbanization",
+            "introduced": "Return of Rome",
+            "age": 3,
+            "image": "urbanization.png",
+            "effects": {
+                "house_population": 1.0
+            },
+            "research": {
+                "resources": {
+                    "wood": 300,
+                    "stone": 100
+                }
+            },
+            "time_in_seconds": 45
+        },
+        {
+            "id": 34401,
+            "name": "Aristocracy",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "aristocracy.png",
+            "effects": {
+                "elite_units_speed_per_title": 0.225
+            },
+            "research": {
+                "resources": {
+                    "food": 175,
+                    "gold": 150
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 34402,
+            "name": "Ballistics",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "ballistics.png",
+            "effects": {
+                "elite_units_speed_per_title": 0.225
+            },
+            "requisite_for": "Ballista Tower",
+            "research": {
+                "resources": {
+                    "food": 200,
+                    "gold": 50
+                }
+            },
+            "time_in_seconds": 60
+        },
+        {
+            "id": 34403,
+            "name": "Alchemy",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "alchemy.png",
+            "effects": {
+                "missile_attack": 1,
+                "fire_galley_attack": 6
+            },
+            "research": {
+                "resources": {
+                    "food": 250,
+                    "gold": 200
+                }
+            },
+            "time_in_seconds": 100
+        },
+        {
+            "id": 34404,
+            "name": "Engineering",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "engineering.png",
+            "effects": {
+                "siege_units_range": 2,
+                "siege_units_los": 2,
+                "siege_ships_range": 2,
+                "siege_ships_los": 2
+            },
+            "research": {
+                "resources": {
+                    "food": 200,
+                    "gold": 100
+                }
+            },
+            "time_in_seconds": 70
+        },
+        {
+            "id": 34405,
+            "name": "Conscription",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "conscription.png",
+            "effects": {
+                "land_military_units_trained_speed": 0.25
+            },
+            "research": {
+                "resources": {
+                    "food": 450,
+                    "gold": 250
+                }
+            },
+            "time_in_seconds": 60
+        }
+    ],
+    "granary": [
+        {
+            "id": 35201,
+            "name": "Watch Tower",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "watch_tower_tech.png",
+            "effects": {
+                "watch_tower": true
+            },
+            "research": {
+                "requisite_for": "Watch Tower",
+                "resources": {
+                    "food": 50
+                }
+            },
+            "time_in_seconds": 10
+        },
+        {
+            "id": 35202,
+            "name": "Small Wall",
+            "introduced": "Age of Empire",
+            "age": 2,
+            "image": "small_wall_tech.png",
+            "effects": {
+                "small_wall": true,
+                "small_gate": true
+            },
+            "research": {
+                "requisite_for": ["Small Wall", "Small Gate", 35302],
+                "resources": {
+                    "food": 50
+                }
+            },
+            "time_in_seconds": 10
+        },
+        {
+            "id": 35301,
+            "name": "Sentry Tower",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "sentry_tower_tech.png",
+            "effects": {
+                "sentry_tower": true
+            },
+            "research": {
+                "prerequisite": 35201,
+                "requisite_for": ["Sentry Tower", ""],
+                "resources": {
+                    "food": 300,
+                    "stone": 100
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 35302,
+            "name": "Medium Wall",
+            "introduced": "Age of Empire",
+            "age": 3,
+            "image": "medium_wall_tech.png",
+            "effects": {
+                "medium_wall": true,
+                "medium_gate": true
+            },
+            "research": {
+                "prerequisite": 35202,
+                "requisite_for": ["Medium Wall", "Medium Gate", ""],
+                "resources": {
+                    "food": 250,
+                    "stone": 50
+                }
+            },
+            "time_in_seconds": 75
+        },
+        {
+            "id": 35401,
+            "name": "Guard Tower",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "guard_tower_tech.png",
+            "effects": {
+                "guard_tower": true
+            },
+            "research": {
+                "prerequisite": 35301,
+                "requisite_for": ["Guard Tower", ""],
+                "resources": {
+                    "food": 750,
+                    "stone": 150
+                }
+            },
+            "time_in_seconds": 150
+        },
+        {
+            "id": 35402,
+            "name": "Fortified Wall",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "fortified_wall_tech.png",
+            "effects": {
+                "guard_tower": true
+            },
+            "research": {
+                "prerequisite": 35302,
+                "requisite_for": ["Fortified Wall", "Fortified Gate", ""],
+                "resources": {
+                    "food": 300,
+                    "stone": 175
+                }
+            },
+            "time_in_seconds": 150
+        },
+        {
+            "id": 35403,
+            "name": "Ballista Tower",
+            "introduced": "Age of Empire",
+            "age": 4,
+            "image": "ballista_tower_tech.png",
+            "effects": {
+                "guard_tower": true
+            },
+            "research": {
+                "prerequisite": 35302,
+                "requisite_for": ["Ballista Tower", ""],
+                "resources": {
+                    "food": 300,
+                    "stone": 100
+                }
+            },
+            "time_in_seconds": 150
+        }
+    ],
+    "barracks": [
+        
+    ]
+}

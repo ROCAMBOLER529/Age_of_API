@@ -1,0 +1,8 @@
+[
+    {
+        "name": "stone_age",
+        "resources": "stone",
+        "amount": 300,
+        "hit_points": 50
+    }
+]
