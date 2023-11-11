@@ -6,8 +6,8 @@
 +------------------------------+
 */
 
-const data = require('../json/data.json');
-const { replaceChar } = require('../helpers/civilizations');
+const Civilization = require('../models/civilizations');
+const { replaceChar } = require('../helpers/helpers');
 
 const getAllCivs = (req, res) => {
     res.json(data.civilization);
@@ -117,7 +117,7 @@ const getAiNamesOfCiv = (req, res) => {
             civ
         });
     } else {
-        const bonuses = data.civilization[pos].AI_player_names;
+        const bonuses = data.civilization[pos].ai_player_names;
 
         res.json({
             status: "ok",

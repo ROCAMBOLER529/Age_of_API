@@ -1,9 +1,6 @@
 // const { ExpressValidator } = require("express-validator");
 
-const tiempo = (req, res, next) => {
-    console.log("Probando middleware...");
-    next();
-}
+
 
 const validarName = (req, res, next) => {
     const nombre = req.params.name;
@@ -12,9 +9,9 @@ const validarName = (req, res, next) => {
         next();
     } else {
         res.status(400).json({
-            err: "Name inválido"
+            err: "Name can't be empty"
         });
     }
 }
 
-module.exports = { tiempo, validarName};
+module.exports = { validarName};

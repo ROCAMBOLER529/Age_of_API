@@ -28,10 +28,10 @@ const {
     getNavyOfCiv
 } = require('../controllers/civilizations');
 
-const { esAdmin, validarJWT } = require('../middlewares/validacionDeRol');
+// const { esAdmin, validarJWT } = require('../middlewares/validacionDeRol');
 const { validarName } = require('../middlewares/validarCampos');
 
-router.get('/civilizations', [validarJWT, esAdmin], getAllCivs);
+// router.get('/civilizations', [validarJWT, esAdmin], getAllCivs);
 router.get('/civilizations/:name', getCivByName);
 router.get('/civilizations/historicalname/:historical_name', getCivByHistoricalName);
 router.get('/civilizations/architecture/:architecture', getCivsByArchitecture);
@@ -46,7 +46,7 @@ router.get('/civilizations/siege/:civ', getSiegeOfCiv);
 router.get('/civilizations/academy/:civ', getAcademyOfCiv);
 router.get('/civilizations/navy/:civ', getNavyOfCiv);
 
-router.post('/civilizations/addUnitToCiv', validarJWT, addUnitToCiv);
+// router.post('/civilizations/addUnitToCiv', validarJWT, addUnitToCiv);
 // router.put()
 // router.delete('deleteCivByName/:name', query('name').notEmpty, deleteCivByName);
 

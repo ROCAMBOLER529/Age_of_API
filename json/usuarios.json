@@ -1,0 +1,38 @@
+[
+    {
+        "name": "aa",
+        "password": "aa",
+        "rol": "std",
+        "banned": false
+    },
+    {
+        "name": "bb",
+        "password": "bb",
+        "rol": "std",
+        "banned": false
+    },
+    {
+        "name": "cc",
+        "password": "cc",
+        "rol": "std",
+        "banned": false
+    },
+    {
+        "name": "dd",
+        "password": "dd",
+        "rol": "mod",
+        "banned": false
+    },
+    {
+        "name": "ee",
+        "password": "ee",
+        "rol": "mod",
+        "banned": false
+    },
+    {
+        "name": "ff",
+        "password": "ff",
+        "rol": "adm",
+        "banned": false
+    }
+]
