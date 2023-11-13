@@ -1,955 +1,1344 @@
-{
-    "market": [
-        {
-            "id": 31201,
-            "name": "Woodworking",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "woodworking.png",
-            "effects": {
-                "wood_work_rate": 0.2,
-                "wood_work_amount": 2,
-                "missile_rangee": 1
-            },
-            "research": {
-                "requisite_for": 31301,
-                "resources": {
-                    "food": 120,
-                    "wood": 75
-                }
-            },
-            "time_in_seconds": 60
+[
+    {
+        "id": 30001,
+        "name": "Tool Age",
+        "introduced": "Age of Empire",
+        "age": 1,
+        "image": "tool_age_tech.png",
+        "effects": "Advance to the Tool Age",
+        "research": {
+            "at": 20001,
+            "prerequisite": [20002, 20003, 20004, 20005],
+            "requisite_for": 32001,
+            "resources": {
+                "food": 500
+            }
         },
-        {
-            "id": 31301,
-            "name": "Artisanship",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "artisanship.png",
-            "effects": {
-                "wood_work_rate": 0.2,
-                "wood_work_amount": 2,
-                "missile_range": 1
-            },
-            "research": {
-                "prerequisite": 31201,
-                "requisite_for": 31401,
-                "resources": {
-                    "food": 170,
-                    "wood": 150
-                }
-            },
-            "time_in_seconds": 80
+        "time_in_seconds": 120
+    },
+    {
+        "id": 30002,
+        "name": "Bronze Age",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "bronze_age_tech.png",
+        "effects": "Advance to the Bronze Age",
+        "research": {
+            "at": 20001,
+            "prerequisite": [20007, 20008, 20009, 30001],
+            "requisite_for": 33001,
+            "resources": {
+                "food": 800
+            }
         },
-        {
-            "id": 31401,
-            "name": "Craftsmanship",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "craftsmanship.png",
-            "effects": {
-                "wood_work_rate": 0.2,
-                "wood_work_amount": 2,
-                "missile_range": 1
-            },
-            "research": {
-                "prerequisite": 31301,
-                "resources": {
-                    "food": 240,
-                    "wood": 200
-                }
-            },
-            "time_in_seconds": 100
+        "time_in_seconds": 140
+    },
+    {
+        "id": 30003,
+        "name": "City Watch",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "city_watch.png",
+        "effects": "Increases the Line of Sight of all buildings by 3",
+        "research": {
+            "at": 20001,
+            "resources": {
+                "food": 100
+            }
         },
-        {
-            "id": 31202,
-            "name": "Stone Mining",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "stone_mining(1).png",
-            "effects": {
-                "stone_work_rate": 0.3,
-                "stone_work_amount": 3,
-                "slingers_attack_range_LOS": 1
-            },
-            "research": {
-                "requisite_for": 31402,
-                "resources": {
-                    "food": 100,
-                    "stone": 50
-                }
-            },
-            "time_in_seconds": 30
+        "time_in_seconds": 45
+    },
+    {
+        "id": 30004,
+        "name": "Iron Age",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "iron_age_tech.png",
+        "effects": "Advance to the Iron Age",
+        "research": {
+            "at": 20001,
+            "prerequisite": [20014, 20015, 20016, 20017, 30002],
+            "resources": {
+                "food": 1000,
+                "gold": 800
+            }
         },
-        {
-            "id": 31402,
-            "name": "Siegecraft",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "siegecraft.png",
-            "effects": {
-                "stone_work_rate": 0.3,
-                "stone_work_amount": 3,
-                "villagers_attack_walls": 1,
-                "slingers_attack_range_LOS_increase": 1
-            },
-            "research": {
-                "prerequisite": 31202,
-                "resources": {
-                    "food": 190,
-                    "stone": 100
-                }
-            },
-            "time_in_seconds": 60
+        "time_in_seconds": 160
+    },
+    {
+        "id": 30005,
+        "name": "Battle Axe",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "battle_axe.png",
+        "effects": "Upgrades Clubmen to Axemen",
+        "research": {
+            "at": 20002,
+            "resources": {
+                "food": 1000
+            }
         },
-        {
-            "id": 31203,
-            "name": "Gold Mining",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "gold_mining(1).png",
-            "effects": {
-                "gold_work_rate": 0.3,
-                "gold_work_amount": 3
-            },
-            "research": {
-                "requisite_for": 31403,
-                "resources": {
-                    "food": 120,
-                    "wood": 100
-                }
-            },
-            "time_in_seconds": 50
+        "time_in_seconds": 40
+    },
+    {
+        "id": 30006,
+        "name": "Short Sword",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "short_sword.png",
+        "effects": "Allows training of the Short Swordsman",
+        "research": {
+            "at": 20002,
+            "prerequisite": 32003,
+            "requisite_for": [33003, "Short Swordsman"],
+            "resources": {
+                "food": 120,
+                "gold": 50
+            }
         },
-        {
-            "id": 31403,
-            "name": "Coinage",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "gold_mining(1).png",
-            "effects": {
-                "gold_mine_productivity_increase": 0.25,
-                "free_tribute": true,
-                "gold_work_rate_increase": 0.33,
-                "gold_work_amount_increase": 3
-            },
-            "research": {
-                "prerequisite": 31203,
-                "resources": {
-                    "food": 200,
-                    "gold": 100
-                }
-            },
-            "time_in_seconds": 60
+        "time_in_seconds": 40
+    },
+    {
+        "id": 30007,
+        "name": "Broad Sword",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "broad_sword.png",
+        "effects": "Upgrades Short Swordsman to Broad Swordsman",
+        "research": {
+            "at": 20002,
+            "requisite_for": [34001, "Broad Swordsman"],
+            "resources": {
+                "food": 240,
+                "gold": 100
+            }
         },
-        {
-            "id": 31204,
-            "name": "Domestication",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "domestication(1).png",
-            "effects": {
-                "food_amount_on_farms_increase": 75
-            },
-            "research": {
-                "requisite_for": 31302,
-                "resources": {
-                    "food": 150,
-                    "gold": 50
-                }
-            },
-            "time_in_seconds": 40
+        "time_in_seconds": 40
+    },
+    {
+        "id": 30008,
+        "name": "Long Sword",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "long_sword.png",
+        "effects": "Upgrades Broad Swordsman to Long Swordsman",
+        "research": {
+            "at": 20002,
+            "prerequisite": 33003,
+            "requisite_for": [33003, "Long Swordsman"],
+            "resources": {
+                "food": 240,
+                "gold": 100
+            }
         },
-        {
-            "id": 31302,
-            "name": "Plow",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "plow(1).png",
-            "effects": {
-                "food_amount_on_farms_increase": 100
-            },
-            "research": {
-                "prerequisite": 31204,
-                "requisite_for": 31404,
-                "resources": {
-                    "food": 250,
-                    "wood": 75
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 40
+    },
+    {
+        "id": 30009,
+        "name": "Legionary (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "legionary(tech).png",
+        "effects": "Upgrades Long Swordsman to Legionary",
+        "research": {
+            "at": 20002,
+            "prerequisite": 34001,
+            "requisite_for": "Legionary",
+            "resources": {
+                "food": 1400,
+                "gold": 600
+            }
         },
-        {
-            "id": 31404,
-            "name": "Irrigation",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "irrigation(1).png",
-            "effects": {
-                "food_amount_on_farms_increase": 125
-            },
-            "research": {
-                "prerequisite": 31302,
-                "resources": {
-                    "food": 300,
-                    "wood": 100
-                }
-            },
-            "time_in_seconds": 100
+        "time_in_seconds": 40
+    },
+    {
+        "id": 30010,
+        "name": "Fishing Ship (tech)",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "fishing_ship(tech).png",
+        "effects": "Upgrades Fishing Boat to Fishing Ship",
+        "research": {
+            "at": 20005,
+            "requisite_for": "Fishing Ship",
+            "resources": {
+                "food": 50,
+                "wood": 100
+            }
         },
-        {
-            "id": 31303,
-            "name": "Wheel",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "irrigation(1).png",
-            "effects": {
-                "food_amount_on_farms_increase": 125
-            },
-            "research": {
-                "requisite_for": ["Chariot", "Chariot Archer", "Trade Cart"],
-                "resources": {
-                    "food": 175,
-                    "wood": 75
-                }
-            },
-            "time_in_seconds": 75
-        }
-    ],
-    "temple": [
-        {
-            "id": 32301,
-            "name": "Polytheism",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "polytheism.png",
-            "effects": {
-                "priest_speed_increase": 0.4
-            },
-            "research": {
-                "resources": {
-                    "gold": 120
-                }
-            },
-            "time_in_seconds": 50
+        "time_in_seconds": 51
+    },
+    {
+        "id": 30011,
+        "name": "War Galley (tech)",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "war_galley(tech).png",
+        "effects": "Upgrades Scout Ship to War Galley",
+        "research": {
+            "at": 20005,
+            "requisite_for": ["War Galley", 30014],
+            "resources": {
+                "food": 150,
+                "wood": 75
+            }
         },
-        {
-            "id": 32302,
-            "name": "Mysticism",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "mysticism.png",
-            "effects": {
-                "priest_hp_increase": 1.0
-            },
-            "research": {
-                "resources": {
-                    "gold": 120
-                }
-            },
-            "time_in_seconds": 50
+        "time_in_seconds": 120
+    },
+    {
+        "id": 30012,
+        "name": "Merchant Ship (tech)",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "merchant_ship(tech).png",
+        "effects": "Upgrades Trade Boat to Merchant Ship",
+        "research": {
+            "at": 20005,
+            "requisite_for": "Merchant Ship",
+            "resources": {
+                "food": 200,
+                "wood": 75
+            }
         },
-        {
-            "id": 32303,
-            "name": "Astrology",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "mysticism.png",
-            "effects": {
-                "priest_conversion_effectivenes": 0.3,
-                "priest_healing_rate_increase": 0.3
-            },
-            "research": {
-                "resources": {
-                    "gold": 175
-                }
-            },
-            "time_in_seconds": 50
+        "time_in_seconds": 120
+    },
+    {
+        "id": 30013,
+        "name": "Heavy Transport (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "heavy_transport(tech).png",
+        "effects": "Upgrades Light Transport to Heavy Transport",
+        "research": {
+            "at": 20005,
+            "requisite_for": "Heavy Transport",
+            "resources": {
+                "food": 300,
+                "wood": 150
+            }
         },
-        {
-            "id": 32304,
-            "name": "Medicine",
-            "introduced": "Rise of Rome",
-            "age": 4,
-            "image": "medicine.png",
-            "effects": {
-                "priest_healing_rate_increase": 1.0
-            },
-            "research": {
-                "resources": {
-                    "gold": 150
-                }
-            },
-            "time_in_seconds": 50
+        "time_in_seconds": 180
+    },
+    {
+        "id": 30014,
+        "name": "Trireme (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "trireme(tech).png",
+        "effects": "Upgrades War Galleys to Heavy Triremes",
+        "research": {
+            "at": 20005,
+            "prerequisite": 33005,
+            "requisite_for": ["Trireme", 30015],
+            "resources": {
+                "food": 250,
+                "wood": 100
+            }
         },
-        {
-            "id": 32305,
-            "name": "Monotheism",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "monotheism.png",
-            "effects": {
-                "priest_can_convert_buildings": true,
-                "priest_can_convert_other_priest": true
-            },
-            "research": {
-                "resources": {
-                    "gold": 350
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 200
+    },
+    {
+        "id": 30015,
+        "name": "Catapult Trireme (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "catapult_trireme(tech).png",
+        "effects": "Unlocks Catapult Trireme",
+        "research": {
+            "at": 20005,
+            "prerequisite": 30014,
+            "requisite_for": ["Catapult Trireme", 30016],
+            "resources": {
+                "food": 300,
+                "wood": 100
+            }
         },
-        {
-            "id": 32306,
-            "name": "Afterlife",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "afterlife.png",
-            "effects": {
-                "priest_conversion_range": 3,
-                "priest_los": 3
-            },
-            "research": {
-                "resources": {
-                    "gold": 275
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30016,
+        "name": "Juggernaut (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "juggernaut(tech).png",
+        "effects": "Upgrades Catapult Trireme to Juggernaut",
+        "research": {
+            "at": 20005,
+            "prerequisite": 30015,
+            "requisite_for": "Juggernaut",
+            "resources": {
+                "food": 1300,
+                "wood": 700
+            }
         },
-        {
-            "id": 32307,
-            "name": "Fanaticism",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "fanaticism.png",
-            "effects": {
-                "priest_rejuvenate_speed": 0.5
-            },
-            "research": {
-                "resources": {
-                    "gold": 150
-                }
-            },
-            "time_in_seconds": 60
+        "time_in_seconds": 200
+    },
+    {
+        "id": 30017,
+        "name": "Composite Bow",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "composite_bow.png",
+        "effects": "Upgrades Improved Bowman to Composite Bowman",
+        "research": {
+            "at": 20007,
+            "prerequisite": 30018,
+            "requisite_for": "Composite Bowman",
+            "resources": {
+                "food": 180,
+                "wood": 100
+            }
         },
-        {
-            "id": 32308,
-            "name": "Theocracy",
-            "introduced": "Return of Rome",
-            "age": 4,
-            "image": "theocracy(1).png",
-            "effects": {
-                "all_priest_must_rest_after_converting": false
-            },
-            "research": {
-                "resources": {
-                    "gold": 400
-                }
-            },
-            "time_in_seconds": 100
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30018,
+        "name": "Improved Bow",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "imrpoved_bow.png",
+        "effects": "Unlocks Improved Bowman",
+        "research": {
+            "at": 20007,
+            "requisite_for": ["Composite Bowman", 30018],
+            "resources": {
+                "food": 180,
+                "wood": 100
+            }
         },
-        {
-            "id": 32309,
-            "name": "Sacrifice",
-            "introduced": "Rise of Rome",
-            "age": 4,
-            "image": "sacrifice.png",
-            "effects": {
-                "sacrifice_priest_to_instantly_convert": true
-            },
-            "research": {
-                "resources": {
-                    "gold": 400
-                }
-            },
-            "time_in_seconds": 100
-        }
-    ],
-    "storage_pit": [
-        {
-            "id": 33201,
-            "name": "Toolworking",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "toolworking.png",
-            "effects": {
-                "melee_units_attack": 2
-            },
-            "research": {
-                "requisite_for": 33301,
-                "resources": {
-                    "food": 100
-                }
-            },
-            "time_in_seconds": 40
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30019,
+        "name": "Heavy Horse Archer (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "heavy_horse_archer(tech).png",
+        "effects": "Upgrades Horse Archer to Heavy Horse Archer",
+        "research": {
+            "at": 20007,
+            "requisite_for": "Heavy Horse Archer",
+            "resources": {
+                "food": 1750,
+                "gold": 800
+            }
         },
-        {
-            "id": 33301,
-            "name": "Metalworking",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "metalworking.png",
-            "effects": {
-                "melee_units_attack": 2
-            },
-            "research": {
-                "prerequisite": 33201,
-                "requisite_for": 33401,
-                "resources": {
-                    "food": 200,
-                    "gold": 120
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 150
+    },
+    {
+        "id": 30020,
+        "name": "Scythe Chariot (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "scythe_chariot(tech).png",
+        "effects": "Upgrades Chariot to Scythe Chariot",
+        "research": {
+            "at": 20008,
+            "requisite_for": "Scythe Chariot",
+            "resources": {
+                "wood": 1400,
+                "gold": 1000
+            }
         },
-        {
-            "id": 33401,
-            "name": "Metallurgy",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "metalworking.png",
-            "effects": {
-                "melee_units_attack": 3
-            },
-            "research": {
-                "prerequisite": 33301,
-                "resources": {
-                    "food": 300,
-                    "gold": 180
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 200
+    },
+    {
+        "id": 30021,
+        "name": "Heavy Cavalry (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "heavy_cavalry(tech).png",
+        "effects": "Upgrades Cavalry to Heavy Cavalry",
+        "research": {
+            "at": 20008,
+            "requisite_for": ["Heavy Cavalry", 30022],
+            "resources": {
+                "food": 350,
+                "gold": 125
+            }
         },
-        {
-            "id": 33202,
-            "name": "Leather Armor Infantry",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "leather_armor_infantry.png",
-            "effects": {
-                "infantry_melee_armor": 2
-            },
-            "research": {
-                "requisite_for": 33302,
-                "resources": {
-                    "food": 75
-                }
-            },
-            "time_in_seconds": 30
+        "time_in_seconds": 90
+    },
+    {
+        "id": 30022,
+        "name": "Cataphract (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "cataphract(tech).png",
+        "effects": "Upgrades Heavy Cavalry to Cataphract",
+        "research": {
+            "at": 20008,
+            "requisite_for": "Cataphract",
+            "resources": {
+                "food": 1600,
+                "gold": 600
+            }
         },
-        {
-            "id": 33302,
-            "name": "Scale Armor Infantry",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "scale_armor_infatry.png",
-            "effects": {
-                "infantry_melee_armor": 2
-            },
-            "research": {
-                "prerequisite": 33202,
-                "requisite_for": 33402,
-                "resources": {
-                    "food": 100,
-                    "gold": 50
-                }
-            },
-            "time_in_seconds": 60
+        "time_in_seconds": 150
+    },
+    {
+        "id": 30023,
+        "name": "Armored Elephant (tech)",
+        "introduced": "Rise of Rome",
+        "age": 4,
+        "image": "armored_elephant(tech).png",
+        "effects": "Upgrades War Elephant to Armored Elephant",
+        "research": {
+            "at": 20008,
+            "requisite_for": "Armored Elephant",
+            "resources": {
+                "food": 1000,
+                "gold": 1200
+            }
         },
-        {
-            "id": 33402,
-            "name": "Chain Mail Infantry",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "chain_mail_infatry.png",
-            "effects": {
-                "infantry_melee_armor": 2
-            },
-            "research": {
-                "prerequisite": 33302,
-                "resources": {
-                    "food": 125,
-                    "gold": 100
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 150
+    },
+    {
+        "id": 30024,
+        "name": "Catapult (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "catapult(tech).png",
+        "effects": "Upgrades Stone Thrower to Catapult",
+        "research": {
+            "at": 20016,
+            "requisite_for": ["Catapult", 30025],
+            "resources": {
+                "food": 300,
+                "wood": 250
+            }
         },
-        {
-            "id": 33203,
-            "name": "Leather Armor Cavalry",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "leather_armor_cavalry.png",
-            "effects": {
-                "cavalry_melee_armor": 2
-            },
-            "research": {
-                "requisite_for": 33303,
-                "resources": {
-                    "food": 125
-                }
-            },
-            "time_in_seconds": 30
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30025,
+        "name": "Heavy Catapult (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "heavy_catapult(tech).png",
+        "effects": "Upgrades Catapult to Heavy Catapult",
+        "research": {
+            "at": 20016,
+            "requisite_for": "Heavy Catapult",
+            "resources": {
+                "food": 1800,
+                "wood": 900
+            }
         },
-        {
-            "id": 33303,
-            "name": "Scale Armor Cavalry",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "scale_armor_cavalry.png",
-            "effects": {
-                "cavalry_melee_armor": 2
-            },
-            "research": {
-                "prerequisite": 33203,
-                "requisite_for": 33403,
-                "resources": {
-                    "food": 150,
-                    "gold": 50
-                }
-            },
-            "time_in_seconds": 60
+        "time_in_seconds": 150
+    },
+    {
+        "id": 30026,
+        "name": "Helepolis (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "helepolis(tech).png",
+        "effects": "Upgrades Ballista to Helepolis",
+        "research": {
+            "at": 20016,
+            "requisite_for": "Helepolis",
+            "resources": {
+                "food": 1200,
+                "wood": 1000
+            }
         },
-        {
-            "id": 33403,
-            "name": "Chain Mail Cavalry",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "chain_mail_cavalry.png",
-            "effects": {
-                "cavalry_melee_armor": 2
-            },
-            "research": {
-                "prerequisite": 33303,
-                "resources": {
-                    "food": 175,
-                    "gold": 100
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 150
+    },
+    {
+        "id": 30027,
+        "name": "Phalangite (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "phalangite(tech).png",
+        "effects": "Upgrades Hoplite to Phalangite",
+        "research": {
+            "at": 20017,
+            "requisite_for": ["Phalangite", 30028],
+            "resources": {
+                "food": 300,
+                "gold": 100
+            }
         },
-        {
-            "id": 33204,
-            "name": "Leather Armor Archers",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "leather_armor_archers.png",
-            "effects": {
-                "archer_melee_armor": 2
-            },
-            "research": {
-                "requisite_for": 33304,
-                "resources": {
-                    "food": 100
-                }
-            },
-            "time_in_seconds": 30
+        "time_in_seconds": 90
+    },
+    {
+        "id": 30028,
+        "name": "Centurion (tech)",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "centurion(tech).png",
+        "effects": "Upgrades Phalangite to Centurion",
+        "research": {
+            "at": 20017,
+            "requisite_for": "Centurion",
+            "resources": {
+                "food": 1800,
+                "gold": 700
+            }
         },
-        {
-            "id": 33304,
-            "name": "Scale Armor Archers",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "scale_armor_archer.png",
-            "effects": {
-                "archer_melee_armor": 2
-            },
-            "research": {
-                "prerequisite": 33204,
-                "requisite_for": 33404,
-                "resources": {
-                    "food": 125,
-                    "gold": 50
-                }
-            },
-            "time_in_seconds": 60
+        "time_in_seconds": 150
+    },
+    {
+        "id": 30029,
+        "name": "Woodworking",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "woodworking.png",
+        "effects": "Woodcutters work 20% faster and carry +2 wood. Archers, Scout Ship-line units, and Towers get +1 range and Line of Sight",
+        "research": {
+            "at": 20009,
+            "requisite_for": 30030,
+            "resources": {
+                "food": 120,
+                "wood": 75
+            }
         },
-        {
-            "id": 33404,
-            "name": "Chain Mail Archers",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "chain_mail_archers.png",
-            "effects": {
-                "archer_melee_armor": 2
-            },
-            "research": {
-                "prerequisite": 33304,
-                "resources": {
-                    "food": 150,
-                    "gold": 100
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30030,
+        "name": "Artisanship",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "artisanship.png",
+        "effects": "Woodcutters work 20% faster and carry +2 wood. Archers, Scout Ship-line units, and Towers get +1 range and Line of Sight",
+        "research": {
+            "at": 20009,
+            "prerequisite": 31201,
+            "requisite_for": 30031,
+            "resources": {
+                "food": 170,
+                "wood": 150
+            }
         },
-        {
-            "id": 33305,
-            "name": "Bronze Shield",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "bronze_shields.png",
-            "effects": {
-                "infantry_pierce_armor": 2
-            },
-            "research": {
-                "requisite_for": 33405,
-                "resources": {
-                    "food": 150,
-                    "gold": 180
-                }
-            },
-            "time_in_seconds": 50
+        "time_in_seconds": 80
+    },
+    {
+        "id": 30031,
+        "name": "Craftsmanship",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "craftsmanship.png",
+        "effects": "Woodcutters work 20% faster and carry +2 wood. Archers, Scout Ship-line units, and Towers get +1 range and Line of Sight",
+        "research": {
+            "at": 20009,
+            "prerequisite": 30030,
+            "resources": {
+                "food": 240,
+                "wood": 200
+            }
         },
-        {
-            "id": 33405,
-            "name": "Iron Shield",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "iron_shields.png",
-            "effects": {
-                "infantry_pierce_armor": 1
-            },
-            "research": {
-                "prerequisite": 33305,
-                "requisite_for": 33406,
-                "resources": {
-                    "food": 200,
-                    "gold": 320
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30032,
+        "name": "Stone Mining",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "stone_mining(1).png",
+        "effects": "Stone Miners work 30% faster and carry +3 stone. Slingers get +1 damage, range and Line of Sight",
+        "research": {
+            "at": 20009,
+            "requisite_for": 30033,
+            "resources": {
+                "food": 100,
+                "stone": 50
+            }
         },
-        {
-            "id": 33406,
-            "name": "Tower Shield",
-            "introduced": "Rise of Rome",
-            "age": 4,
-            "image": "tower_shields.png",
-            "effects": {
-                "infantry_pierce_armor": 1
-            },
-            "research": {
-                "prerequisite": 33405,
-                "resources": {
-                    "food": 250,
-                    "gold": 400
-                }
-            },
-            "time_in_seconds": 100
-        }
-    ],
-    "goverment_center": [
-        {
-            "id": 34301,
-            "name": "Nobility",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "nobility.png",
-            "effects": {
-                "cavalry_hp_exclude_elephant": 0.15
-            },
-            "research": {
-                "resources": {
-                    "food": 175,
-                    "gold": 125
-                }
-            },
-            "time_in_seconds": 70
+        "time_in_seconds": 30
+    },
+    {
+        "id": 30033,
+        "name": "Siegecraft",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "siegecraft.png",
+        "effects": "Stone Miners work 30% faster and carry +3 stone. Slingers get +1 damage, range and Line of Sight. Villagers get +10 bonus damage against Towers and Walls",
+        "research": {
+            "at": 20009,
+            "prerequisite": 30032,
+            "resources": {
+                "food": 190,
+                "stone": 100
+            }
         },
-        {
-            "id": 34302,
-            "name": "Writing",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "writing.png",
-            "effects": {
-                "share_exploration": true
-            },
-            "research": {
-                "resources": {
-                    "food": 200,
-                    "gold": 75
-                }
-            },
-            "time_in_seconds": 30
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30034,
+        "name": "Gold Mining",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "gold_mining(1).png",
+        "effects": "Gold Miners work 30% faster and carry +3 gold",
+        "research": {
+            "at": 20009,
+            "requisite_for": 30035,
+            "resources": {
+                "food": 120,
+                "wood": 100
+            }
         },
-        {
-            "id": 34303,
-            "name": "Architecture",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "architecture.png",
-            "effects": {
-                "buildings_hp": 0.2,
-                "construction_time": -0.33
-            },
-            "research": {
-                "resources": {
-                    "food": 150,
-                    "gold": 175
-                }
-            },
-            "time_in_seconds": 50
+        "time_in_seconds": 50
+    },
+    {
+        "id": 30035,
+        "name": "Coinage",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "gold_mining(1).png",
+        "effects": "Gold Miners work 25% faster and carry +3 gold. Gold Mines last 25% longer. Tributes is free",
+        "research": {
+            "at": 20009,
+            "prerequisite": 30034,
+            "resources": {
+                "food": 200,
+                "gold": 100
+            }
         },
-        {
-            "id": 34304,
-            "name": "Logistics",
-            "introduced": "Rise of Rome",
-            "age": 3,
-            "image": "logistics.png",
-            "effects": {
-                "infantry_units_population": 0.5
-            },
-            "research": {
-                "resources": {
-                    "food": 180,
-                    "gold": 100
-                }
-            },
-            "time_in_seconds": 60
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30036,
+        "name": "Domestication",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "domestication(1).png",
+        "effects": "Farms produce +75 food (valid only for newly built Farms)",
+        "research": {
+            "at": 20009,
+            "requisite_for": 30037,
+            "resources": {
+                "food": 150,
+                "gold": 50
+            }
         },
-        {
-            "id": 34305,
-            "name": "Urbanization",
-            "introduced": "Return of Rome",
-            "age": 3,
-            "image": "urbanization.png",
-            "effects": {
-                "house_population": 1.0
-            },
-            "research": {
-                "resources": {
-                    "wood": 300,
-                    "stone": 100
-                }
-            },
-            "time_in_seconds": 45
+        "time_in_seconds": 40
+    },
+    {
+        "id": 30037,
+        "name": "Plow",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "plow(1).png",
+        "effects": "Farms produce +100 food (valid only for newly built Farms)",
+        "research": {
+            "at": 20009,
+            "prerequisite": 30036,
+            "requisite_for": 30038,
+            "resources": {
+                "food": 250,
+                "wood": 75
+            }
         },
-        {
-            "id": 34401,
-            "name": "Aristocracy",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "aristocracy.png",
-            "effects": {
-                "elite_units_speed_per_title": 0.225
-            },
-            "research": {
-                "resources": {
-                    "food": 175,
-                    "gold": 150
-                }
-            },
-            "time_in_seconds": 60
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30038,
+        "name": "Irrigation",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "irrigation(1).png",
+        "effects": "Farms produce +125 food (valid only for newly built Farms)",
+        "research": {
+            "at": 20009,
+            "prerequisite": 30037,
+            "resources": {
+                "food": 300,
+                "wood": 100
+            }
         },
-        {
-            "id": 34402,
-            "name": "Ballistics",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "ballistics.png",
-            "effects": {
-                "elite_units_speed_per_title": 0.225
-            },
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30039,
+        "name": "Wheel",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "irrigation(1).png",
+        "effects": "Villagers get +0.55 speed",
+        "research": {
+            "at": 20009,
+            "requisite_for": ["Chariot", "Chariot Archer", "Trade Cart"],
+            "resources": {
+                "food": 175,
+                "wood": 75
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30040,
+        "name": "Polytheism",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "polytheism.png",
+        "effects": "Priests get +40% speed",
+        "research": {
+            "at":20015,
+            "resources": {
+                "gold": 120
+            }
+        },
+        "time_in_seconds": 50
+    },
+    {
+        "id": 30041,
+        "name": "Mysticism",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "mysticism.png",
+        "effects": "Priests get +100% hit points",
+        "research": {
+            "at": 20015,
+            "resources": {
+                "gold": 120
+            }
+        },
+        "time_in_seconds": 50
+    },
+    {
+        "id": 30042,
+        "name": "Astrology",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "mysticism.png",
+        "effects": "Priests convert and heal 30% faster",
+        "research": {
+            "at": 20015,
+            "resources": {
+                "gold": 175
+            }
+        },
+        "time_in_seconds": 50
+    },
+    {
+        "id": 30043,
+        "name": "Medicine",
+        "introduced": "Rise of Rome",
+        "age": 4,
+        "image": "medicine.png",
+        "effects": "Priests heal 33% faster",
+        "research": {
+            "at": 20015,
+            "resources": {
+                "gold": 150
+            }
+        },
+        "time_in_seconds": 50
+    },
+    {
+        "id": 30044,
+        "name": "Monotheism",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "monotheism.png",
+        "effects": "Priests can convert enemy buildings and Priests",
+        "research": {
+            "at": 20015,
+            "resources": {
+                "gold": 350
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30045,
+        "name": "Afterlife",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "afterlife.png",
+        "effects": "Priests get +3 range and Line of Sight",
+        "research": {
+            "at": 20015,
+            "resources": {
+                "gold": 275
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30046,
+        "name": "Fanaticism",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "fanaticism.png",
+        "effects": "Priests rejuvenate 50% faster",
+        "research": {
+            "at": 20015,
+            "resources": {
+                "gold": 150
+            }
+        },
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30047,
+        "name": "Theocracy",
+        "introduced": "Return of Rome",
+        "age": 4,
+        "image": "theocracy(1).png",
+        "effects": "Only one Priest in group must rest after a conversion",
+        "research": {
+            "at": 20015,
+            "resources": {
+                "gold": 400
+            }
+        },
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30048,
+        "name": "Sacrifice",
+        "introduced": "Rise of Rome",
+        "age": 4,
+        "image": "sacrifice.png",
+        "effects": "Priests can be sacrificed to instantly convert an enemy unit",
+        "research": {
+            "at": 20015,
+            "resources": {
+                "gold": 400
+            }
+        },
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30049,
+        "name": "Toolworking",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "toolworking.png",
+        "effects": "Melee units +2 attack",
+        "research": {
+            "at": 20003,
+            "requisite_for": 30050,
+            "resources": {
+                "food": 100
+            }
+        },
+        "time_in_seconds": 40
+    },
+    {
+        "id": 30050,
+        "name": "Metalworking",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "metalworking.png",
+        "effects": "Melee units +2 attack",
+        "research": {
+            "at": 20003,
+            "prerequisite": 33201,
+            "requisite_for": 30051,
+            "resources": {
+                "food": 200,
+                "gold": 120
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30051,
+        "name": "Metallurgy",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "metalworking.png",
+        "effects": "Melee units +3 attack",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30050,
+            "resources": {
+                "food": 300,
+                "gold": 180
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30052,
+        "name": "Leather Armor Infantry",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "leather_armor_infantry.png",
+        "effects": "Infantry +2 melee armor",
+        "research": {
+            "at": 20003,
+            "requisite_for": 30053,
+            "resources": {
+                "food": 75
+            }
+        },
+        "time_in_seconds": 30
+    },
+    {
+        "id": 30053,
+        "name": "Scale Armor Infantry",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "scale_armor_infatry.png",
+        "effects": "Infantry +2 melee armor",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30052,
+            "requisite_for": 30054,
+            "resources": {
+                "food": 100,
+                "gold": 50
+            }
+        },
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30054,
+        "name": "Chain Mail Infantry",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "chain_mail_infatry.png",
+        "effects": "Infantry +2 melee armor",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30053,
+            "resources": {
+                "food": 125,
+                "gold": 100
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30055,
+        "name": "Leather Armor Cavalry",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "leather_armor_cavalry.png",
+        "effects": "Cavalry +2 melee armor",
+        "research": {
+            "at": 20003,
+            "requisite_for": 30056,
+            "resources": {
+                "food": 125
+            }
+        },
+        "time_in_seconds": 30
+    },
+    {
+        "id": 30056,
+        "name": "Scale Armor Cavalry",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "scale_armor_cavalry.png",
+        "effects": "Cavalry +2 melee armor",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30055,
+            "requisite_for": 30057,
+            "resources": {
+                "food": 150,
+                "gold": 50
+            }
+        },
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30057,
+        "name": "Chain Mail Cavalry",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "chain_mail_cavalry.png",
+        "effects": "Cavalry +2 melee armor",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30056,
+            "resources": {
+                "food": 175,
+                "gold": 100
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30058,
+        "name": "Leather Armor Archers",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "leather_armor_archers.png",
+        "effects": "Archers +2 melee armor",
+        "research": {
+            "at": 20003,
+            "requisite_for": 30059,
+            "resources": {
+                "food": 100
+            }
+        },
+        "time_in_seconds": 30
+    },
+    {
+        "id": 30059,
+        "name": "Scale Armor Archers",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "scale_armor_archer.png",
+        "effects": "Archers +2 melee armor",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30058,
+            "requisite_for": 30060,
+            "resources": {
+                "food": 125,
+                "gold": 50
+            }
+        },
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30060,
+        "name": "Chain Mail Archers",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "chain_mail_archers.png",
+        "effects": "Archers +2 melee armor",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30059,
+            "resources": {
+                "food": 150,
+                "gold": 100
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30061,
+        "name": "Bronze Shield",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "bronze_shields.png",
+        "effects": "Infantry and Slingers +1 pierce armor",
+        "research": {
+            "at": 20003,
+            "requisite_for": 30062,
+            "resources": {
+                "food": 150,
+                "gold": 180
+            }
+        },
+        "time_in_seconds": 50
+    },
+    {
+        "id": 30062,
+        "name": "Iron Shield",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "iron_shields.png",
+        "effects": "Infantry and Slingers +1 pierce armor",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30061,
+            "requisite_for": 30063,
+            "resources": {
+                "food": 200,
+                "gold": 320
+            }
+        },
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30063,
+        "name": "Tower Shield",
+        "introduced": "Rise of Rome",
+        "age": 4,
+        "image": "tower_shields.png",
+        "effects": "Infantry and Slingers +1 pierce armor",
+        "research": {
+            "at": 20003,
+            "prerequisite": 30062,
+            "resources": {
+                "food": 250,
+                "gold": 400
+            }
+        },
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30064,
+        "name": "Nobility",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "nobility.png",
+        "effects": "Mounted units (except elephants) have +15% hit points",
+        "research": {
+            "at": 20014,
+            "resources": {
+                "food": 175,
+                "gold": 125
+            }
+        },
+        "time_in_seconds": 70
+    },
+    {
+        "id": 30065,
+        "name": "Writing",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "writing.png",
+        "effects": "Allies share exploration",
+        "research": {
+            "at": 20014,
+            "resources": {
+                "food": 200,
+                "gold": 75
+            }
+        },
+        "time_in_seconds": 30
+    },
+    {
+        "id": 30066,
+        "name": "Architecture",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "architecture.png",
+        "effects": "Builders work 50% faster. Buildings have +20% hit points",
+        "research": {
+            "at": 20014,
+            "resources": {
+                "food": 150,
+                "gold": 175
+            }
+        },
+        "time_in_seconds": 50
+    },
+    {
+        "id": 30067,
+        "name": "Logistics",
+        "introduced": "Rise of Rome",
+        "age": 3,
+        "image": "logistics.png",
+        "effects": "Barracks units take up half population space",
+        "research": {
+            "at": 20014,
+            "resources": {
+                "food": 180,
+                "gold": 100
+            }
+        },
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30068,
+        "name": "Urbanization",
+        "introduced": "Return of Rome",
+        "age": 3,
+        "image": "urbanization.png",
+        "effects": "Houses provide +4 population each",
+        "research": {
+            "at": 20014,
+            "resources": {
+                "wood": 300,
+                "stone": 100
+            }
+        },
+        "time_in_seconds": 45
+    },
+    {
+        "id": 30069,
+        "name": "Aristocracy",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "aristocracy.png",
+        "effects": "Academy units move +0.225 tiles/sec faster",
+        "research": {
+            "at": 20014,
+            "resources": {
+                "food": 175,
+                "gold": 150
+            }
+        },
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30070,
+        "name": "Ballistics",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "ballistics.png",
+        "effects": "Projectiles are aimed to anticipate target movement",
+        "research": {
+            "at": 20014,
             "requisite_for": "Ballista Tower",
-            "research": {
-                "resources": {
-                    "food": 200,
-                    "gold": 50
-                }
-            },
-            "time_in_seconds": 60
+            "resources": {
+                "food": 200,
+                "gold": 50
+            }
         },
-        {
-            "id": 34403,
-            "name": "Alchemy",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "alchemy.png",
-            "effects": {
-                "missile_attack": 1,
-                "fire_galley_attack": 6
-            },
-            "research": {
-                "resources": {
-                    "food": 250,
-                    "gold": 200
-                }
-            },
-            "time_in_seconds": 100
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30071,
+        "name": "Alchemy",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "alchemy.png",
+        "effects": "+1 attack for all ranged units. +6 attack for Fire Galley",
+        "research": {
+            "at":20014,
+            "resources": {
+                "food": 250,
+                "gold": 200
+            }
         },
-        {
-            "id": 34404,
-            "name": "Engineering",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "engineering.png",
-            "effects": {
-                "siege_units_range": 2,
-                "siege_units_los": 2,
-                "siege_ships_range": 2,
-                "siege_ships_los": 2
-            },
-            "research": {
-                "resources": {
-                    "food": 200,
-                    "gold": 100
-                }
-            },
-            "time_in_seconds": 70
+        "time_in_seconds": 100
+    },
+    {
+        "id": 30072,
+        "name": "Engineering",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "engineering.png",
+        "effects": "Units from the Stone Thrower, Ballista, and Catapult Trireme lines have +2 range and Line of Sight",
+        "research": {
+            "at":20014,
+            "resources": {
+                "food": 200,
+                "gold": 100
+            }
         },
-        {
-            "id": 34405,
-            "name": "Conscription",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "conscription.png",
-            "effects": {
-                "land_military_units_trained_speed": 0.25
-            },
-            "research": {
-                "resources": {
-                    "food": 450,
-                    "gold": 250
-                }
-            },
-            "time_in_seconds": 60
-        }
-    ],
-    "granary": [
-        {
-            "id": 35201,
-            "name": "Watch Tower",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "watch_tower_tech.png",
-            "effects": {
-                "watch_tower": true
-            },
-            "research": {
-                "requisite_for": "Watch Tower",
-                "resources": {
-                    "food": 50
-                }
-            },
-            "time_in_seconds": 10
+        "time_in_seconds": 70
+    },
+    {
+        "id": 30073,
+        "name": "Conscription",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "conscription.png",
+        "effects": "-20% training time (+25% faster creation) for units from the Barracks, Archery Range, Stable, Academy, and Siege Workshop",
+        "research": {
+            "at": 20014,
+            "resources": {
+                "food": 450,
+                "gold": 250
+            }
         },
-        {
-            "id": 35202,
-            "name": "Small Wall",
-            "introduced": "Age of Empire",
-            "age": 2,
-            "image": "small_wall_tech.png",
-            "effects": {
-                "small_wall": true,
-                "small_gate": true
-            },
-            "research": {
-                "requisite_for": ["Small Wall", "Small Gate", 35302],
-                "resources": {
-                    "food": 50
-                }
-            },
-            "time_in_seconds": 10
+        "time_in_seconds": 60
+    },
+    {
+        "id": 30074,
+        "name": "Watch Tower",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "watch_tower_tech.png",
+        "effects": "Unlock Watch Tower",
+        "research": {
+            "at": 20004,
+            "requisite_for": [20012, 30076],
+            "resources": {
+                "food": 50
+            }
         },
-        {
-            "id": 35301,
-            "name": "Sentry Tower",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "sentry_tower_tech.png",
-            "effects": {
-                "sentry_tower": true
-            },
-            "research": {
-                "prerequisite": 35201,
-                "requisite_for": ["Sentry Tower", ""],
-                "resources": {
-                    "food": 300,
-                    "stone": 100
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 10
+    },
+    {
+        "id": 30075,
+        "name": "Small Wall",
+        "introduced": "Age of Empire",
+        "age": 2,
+        "image": "small_wall_tech.png",
+        "effects": "Unlock Small Wall and Small Gate",
+        "research": {
+            "at": 20004,
+            "requisite_for": [20010, 20011, 30077],
+            "resources": {
+                "food": 50
+            }
         },
-        {
-            "id": 35302,
-            "name": "Medium Wall",
-            "introduced": "Age of Empire",
-            "age": 3,
-            "image": "medium_wall_tech.png",
-            "effects": {
-                "medium_wall": true,
-                "medium_gate": true
-            },
-            "research": {
-                "prerequisite": 35202,
-                "requisite_for": ["Medium Wall", "Medium Gate", ""],
-                "resources": {
-                    "food": 250,
-                    "stone": 50
-                }
-            },
-            "time_in_seconds": 75
+        "time_in_seconds": 10
+    },
+    {
+        "id": 30076,
+        "name": "Sentry Tower",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "sentry_tower_tech.png",
+        "effects": "Upgrades Watch Tower to Sentry Tower",
+        "research": {
+            "at": 20004,
+            "prerequisite": 30074,
+            "requisite_for": [20020, 30078],
+            "resources": {
+                "food": 300,
+                "stone": 100
+            }
         },
-        {
-            "id": 35401,
-            "name": "Guard Tower",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "guard_tower_tech.png",
-            "effects": {
-                "guard_tower": true
-            },
-            "research": {
-                "prerequisite": 35301,
-                "requisite_for": ["Guard Tower", ""],
-                "resources": {
-                    "food": 750,
-                    "stone": 150
-                }
-            },
-            "time_in_seconds": 150
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30077,
+        "name": "Medium Wall",
+        "introduced": "Age of Empire",
+        "age": 3,
+        "image": "medium_wall_tech.png",
+        "effects": "Upgrades Small Wall to Medium Wall. Upgrades Small Gate to Medium Gate",
+        "research": {
+            "at": 20004,
+            "prerequisite": 30075,
+            "requisite_for": [20018, 20019, 30079],
+            "resources": {
+                "food": 250,
+                "stone": 50
+            }
         },
-        {
-            "id": 35402,
-            "name": "Fortified Wall",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "fortified_wall_tech.png",
-            "effects": {
-                "guard_tower": true
-            },
-            "research": {
-                "prerequisite": 35302,
-                "requisite_for": ["Fortified Wall", "Fortified Gate", ""],
-                "resources": {
-                    "food": 300,
-                    "stone": 175
-                }
-            },
-            "time_in_seconds": 150
+        "time_in_seconds": 75
+    },
+    {
+        "id": 30078,
+        "name": "Guard Tower",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "guard_tower_tech.png",
+        "effects": "Upgrades Sentry Tower to Guard Tower",
+        "research": {
+            "at": 20004,
+            "prerequisite": 30076,
+            "requisite_for": 20024,
+            "resources": {
+                "food": 750,
+                "stone": 150
+            }
         },
-        {
-            "id": 35403,
-            "name": "Ballista Tower",
-            "introduced": "Age of Empire",
-            "age": 4,
-            "image": "ballista_tower_tech.png",
-            "effects": {
-                "guard_tower": true
-            },
-            "research": {
-                "prerequisite": 35302,
-                "requisite_for": ["Ballista Tower", ""],
-                "resources": {
-                    "food": 300,
-                    "stone": 100
-                }
-            },
-            "time_in_seconds": 150
-        }
-    ],
-    "barracks": [
-        
-    ]
-}
+        "time_in_seconds": 150
+    },
+    {
+        "id": 30079,
+        "name": "Fortified Wall",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "fortified_wall_tech.png",
+        "effects": "Upgrades Medium Wall to Fortified Wall. Upgrades Medium Gate to Fortified Gate",
+        "research": {
+            "at": 20004,
+            "prerequisite": 30077,
+            "requisite_for": [20022, 20023],
+            "resources": {
+                "food": 300,
+                "stone": 175
+            }
+        },
+        "time_in_seconds": 150
+    },
+    {
+        "id": 30080,
+        "name": "Ballista Tower",
+        "introduced": "Age of Empire",
+        "age": 4,
+        "image": "ballista_tower_tech.png",
+        "effects": "Upgrades Guard Tower to Ballista Tower",
+        "research": {
+            "at":20004,
+            "prerequisite": [30078, 30070],
+            "requisite_for": 20025,
+            "resources": {
+                "food": 300,
+                "stone": 100
+            }
+        },
+        "time_in_seconds": 150
+    }
+]

@@ -1,8 +1,9 @@
 [
     {
-        "id": 11101,
+        "id": 10001,
         "name": "Clubman",
         "introduced": "Age of Empires",
+        "type": "Infantry",
         "age": 1,
         "traning": {
             "trained_at": 22101,
@@ -23,9 +24,10 @@
         }
     },
     {
-        "id": 11201,
+        "id": 10002,
         "name": "Axeman",
         "introduced": "Age of Empires",
+        "type": "Infantry",
         "age": 2,
         "traning": {
             "prerequisite": "Battle Axe",
@@ -47,9 +49,10 @@
         }
     },
     {
-        "id": 11202,
+        "id": 10003,
         "name": "Slinger",
         "introduced": "Rise of Rome",
+        "type": "Infantry",
         "age": 2,
         "traning": {
             "trained_at": 22101,
@@ -75,9 +78,10 @@
         }
     },
     {
-        "id": 11301,
+        "id": 10004,
         "name": "Short Swordsman",
         "introduced": "Age of Empires",
+        "type": "Infantry",
         "age": 3,
         "traning": {
             "trained_at": 22101,
@@ -99,9 +103,10 @@
         }
     },
     {
-        "id": 11302,
+        "id": 10005,
         "name": "Broad Swordsman",
         "introduced": "Age of Empires",
+        "type": "Infantry",
         "age": 3,
         "traning": {
             "trained_at": 22101,
@@ -123,9 +128,10 @@
         }
     },
     {
-        "id": 11401,
+        "id": 10006,
         "name": "Long Swordsman",
         "introduced": "Age of Empires",
+        "type": "Infantry",
         "age": 4,
         "traning": {
             "trained_at": 22101,
@@ -147,9 +153,10 @@
         }
     },
     {
-        "id": 11402,
+        "id": 10007,
         "name": "Legionary",
         "introduced": "Age of Empires",
+        "type": "Infantry",
         "age": 4,
         "traning": {
             "trained_at": 22101,
@@ -171,9 +178,10 @@
         }
     },
     {
-        "id": 12201,
+        "id": 10008,
         "name": "Bowman",
         "introduced": "Age of Empires",
+        "type": "Archer",
         "age": 2,
         "traning": {
             "trained_at": 22201,
@@ -199,9 +207,10 @@
         }
     },
     {
-        "id": 12301,
+        "id": 10009,
         "name": "Improved Bowman",
         "introduced": "Age of Empires",
+        "type": "Archer",
         "age": 3,
         "traning": {
             "trained_at": 22201,
@@ -226,9 +235,10 @@
         }
     },
     {
-        "id": 12302,
+        "id": 10010,
         "name": "Composite Bowman",
         "introduced": "Age of Empires",
+        "type": "Archer",
         "age": 3,
         "traning": {
             "trained_at": 22201,
@@ -253,9 +263,10 @@
         }
     },
     {
-        "id": 12303,
+        "id": 10011,
         "name": "Chariot Archer",
         "introduced": "Age of Empires",
+        "type": ["Cavalry", "Archer"],
         "age": 3,
         "traning": {
             "trained_at": 22201,
@@ -280,9 +291,10 @@
         }
     },
     {
-        "id": 12401,
+        "id": 10012,
         "name": "Horse Archer",
         "introduced": "Age of Empires",
+        "type": ["Cavalry", "Archer"],
         "age": 4,
         "traning": {
             "trained_at": 22201,
@@ -310,6 +322,7 @@
         "id": 12402,
         "name": "Heavy Horse Archer",
         "introduced": "Age of Empires",
+        "type": ["Cavalry", "Archer"],
         "age": 4,
         "traning": {
             "trained_at": 22201,
@@ -334,9 +347,10 @@
         }
     },
     {
-        "id": 12403,
+        "id": 10013,
         "name": "Elephant Archer",
         "introduced": "Age of Empires",
+        "type": ["Cavalry", "Archer"],
         "age": 4,
         "traning": {
             "trained_at": 22201,
@@ -361,9 +375,10 @@
         }
     },
     {
-        "id": 13201,
+        "id": 10014,
         "name": "Scout",
         "introduced": "Age of Empires",
+        "type": "Cavalry",
         "age": 2,
         "traning": {
             "trained_at": 22202,
@@ -385,9 +400,10 @@
         }
     },
     {
-        "id": 13301,
+        "id": 10015,
         "name": "Chariot",
         "introduced": "Age of Empires",
+        "type": "Cavalry",
         "age": 3,
         "traning": {
             "trained_at": 22202,
@@ -410,34 +426,10 @@
         }
     },
     {
-        "id": 13302,
-        "name": "Cavalry",
-        "introduced": "Age of Empires",
-        "age": 3,
-        "traning": {
-            "trained_at": 22202,
-            "resources": {
-                "food": 70,
-                "gold": 80
-            },
-            "time_in_seconds": 40
-        },
-        "statistics": {
-            "hp": 150,
-            "melee_attack": 8,
-            "attack_bonus": 5,
-            "rate": 1.5,
-            "melee_armor": 0,
-            "pierce_armor": 1,
-            "armor_class": "Mounted Units",
-            "speed": 1.66,
-            "line_of_sight": 4
-        }
-    },
-    {
-        "id": 13303,
+        "id": 10016,
         "name": "Camel Rider",
         "introduced": "Age of Empires",
+        "type": "Cavalry",
         "age": 3,
         "traning": {
             "trained_at": 22202,
@@ -460,9 +452,10 @@
         }
     },
     {
-        "id": 13401,
+        "id": 10017,
         "name": "Scythe Chariot",
         "introduced": "Age of Empires",
+        "type": "Cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -486,9 +479,10 @@
         }
     },
     {
-        "id": 13402,
+        "id": 10018,
         "name": "Heavy Cavalry",
         "introduced": "Age of Empires",
+        "type": "Cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -511,9 +505,10 @@
         }
     },
     {
-        "id": 13403,
+        "id": 10019,
         "name": "Cataphract",
         "introduced": "Age of Empires",
+        "type": "Cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -536,9 +531,10 @@
         }
     },
     {
-        "id": 13404,
+        "id": 10020,
         "name": "War Elephant",
         "introduced": "Age of Empires",
+        "type": "Cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -562,7 +558,7 @@
         }
     },
     {
-        "id": 13405,
+        "id": 10021,
         "name": "Armored Elephant",
         "introduced": "Rise of Rome",
         "age": 4,
@@ -588,9 +584,10 @@
         }
     },
     {
-        "id": 14301,
+        "id": 10022,
         "name": "Stone Thrower",
         "introduced": "Age of Empires",
+        "type": "Cavalry",
         "age": 3,
         "traning": {
             "trained_at": 22302,
@@ -617,9 +614,10 @@
         }
     },
     {
-        "id": 14401,
+        "id": 10023,
         "name": "Catapult",
         "introduced": "Age of Empires",
+        "type": "Siegecraft",
         "age": 4,
         "traning": {
             "trained_at": 22302,
@@ -646,9 +644,10 @@
         }
     },
     {
-        "id": 14402,
+        "id": 10024,
         "name": "Heavy Catapult",
         "introduced": "Age of Empires",
+        "type": "Siegecraft",
         "age": 4,
         "traning": {
             "trained_at": 22302,
@@ -675,9 +674,10 @@
         }
     },
     {
-        "id": 14403,
+        "id": 10025,
         "name": "Ballista",
         "introduced": "Age of Empires",
+        "type": "Siegecraft",
         "age": 4,
         "traning": {
             "trained_at": 22302,
@@ -703,9 +703,10 @@
         }
     },
     {
-        "id": 14404,
+        "id": 10026,
         "name": "Helepolis",
         "introduced": "Age of Empires",
+        "type": "Siegecraft",
         "age": 4,
         "traning": {
             "trained_at": 22302,
@@ -731,9 +732,10 @@
         }
     },
     {
-        "id": 15301,
+        "id": 10027,
         "name": "Hoplite",
         "introduced": "Age of Empires",
+        "type":"Infantry",
         "age": 3,
         "traning": {
             "trained_at": 22303,
@@ -755,9 +757,10 @@
         }
     },
     {
-        "id": 15401,
+        "id": 10028,
         "name": "Phalangite",
         "introduced": "Age of Empires",
+        "type":"Infantry",
         "age": 4,
         "traning": {
             "trained_at": 22303,
@@ -779,9 +782,10 @@
         }
     },
     {
-        "id": 15402,
+        "id": 10029,
         "name": "Centurion",
         "introduced": "Age of Empires",
+        "type":"Infantry",
         "age": 4,
         "traning": {
             "trained_at": 22303,
@@ -803,9 +807,10 @@
         }
     },
     {
-        "id": 16101,
+        "id": 10030,
         "name": "Villager",
         "introduced": "Age of Empires",
+        "type":"Civilian",
         "age": 1,
         "traning": {
             "trained_at": 21101,
@@ -829,9 +834,10 @@
         }
     },
     {
-        "id": 16301,
+        "id": 10031,
         "name": "Priest",
         "introduced": "Age of Empires",
+        "type":"Civilian",
         "age": 3,
         "traning": {
             "trained_at": 22301,
@@ -853,9 +859,10 @@
         }
     },
     {
-        "id": 16302,
+        "id": 10032,
         "name": "Trade Cart",
         "introduced": "Return of Rome",
+        "type":"Civilian",
         "age": 3,
         "traning": {
             "trained_at": 21201,
@@ -874,9 +881,10 @@
         }
     },
     {
-        "id": 17101,
+        "id": 10033,
         "name": "Fishing Boat",
         "introduced": "Age of Empires",
+        "type":"Ship",
         "age": 1,
         "traning": {
             "trained_at": 21104,
@@ -895,9 +903,10 @@
         }
     },
     {
-        "id": 17201,
+        "id": 10034,
         "name": "Light Transport",
         "introduced": "Age of Empires",
+        "type":"Ship",
         "age": 2,
         "traning": {
             "trained_at": 21104,
@@ -916,9 +925,10 @@
         }
     },
     {
-        "id": 17202,
+        "id": 10035,
         "name": "Scout Ship",
         "introduced": "Age of Empires",
+        "type":"Warship",
         "age": 2,
         "traning": {
             "trained_at": 21104,
@@ -940,9 +950,10 @@
         }
     },
     {
-        "id": 17301,
+        "id": 10036,
         "name": "Fishing Ship",
         "introduced": "Age of Empires",
+        "type":"Ship",
         "age": 3,
         "traning": {
             "trained_at": 21104,
@@ -961,9 +972,10 @@
         }
     },
     {
-        "id": 17302,
+        "id": 10037,
         "name": "Trade Boat",
         "introduced": "Age of Empires",
+        "type":"Ship",
         "age": 3,
         "traning": {
             "trained_at": 21104,
@@ -982,9 +994,10 @@
         }
     },
     {
-        "id": 17303,
+        "id": 10038,
         "name": "Merchant Ship",
         "introduced": "Age of Empires",
+        "type":"Ship",
         "age": 3,
         "traning": {
             "trained_at": 21104,
@@ -1003,9 +1016,10 @@
         }
     },
     {
-        "id": 17304,
+        "id": 10039,
         "name": "War Galley",
         "introduced": "Age of Empires",
+        "type":"Warship",
         "age": 3,
         "traning": {
             "trained_at": 21104,
@@ -1027,9 +1041,10 @@
         }
     },
     {
-        "id": 17401,
+        "id": 10040,
         "name": "Heavy Transport",
         "introduced": "Age of Empires",
+        "type":"Warship",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1048,9 +1063,10 @@
         }
     },
     {
-        "id": 17402,
+        "id": 10041,
         "name": "War Galley",
         "introduced": "Age of Empires",
+        "type":"Warship",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1072,9 +1088,10 @@
         }
     },
     {
-        "id": 17403,
+        "id": 10042,
         "name": "Catapult Trireme",
         "introduced": "Age of Empires",
+        "type":"Warship",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1098,9 +1115,10 @@
         }
     },
     {
-        "id": 17404,
+        "id": 10043,
         "name": "Juggernaut",
         "introduced": "Age of Empires",
+        "type":"Warship",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1124,9 +1142,10 @@
         }
     },
     {
-        "id": 17405,
+        "id": 10044,
         "name": "Fire Galley",
         "introduced": "Rise of Rome",
+        "type":"Warship",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1148,10 +1167,10 @@
         }
     },
     {
-        "id": 18001,
+        "id": 10045,
         "name": "Alexander",
         "introduced": "Age of Empires",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 400,
             "regeneration_per_minute": 30,
@@ -1165,10 +1184,10 @@
         }
     },
     {
-        "id": 18002,
+        "id": 10046,
         "name": "Amon Ra",
         "introduced": "Age of Empires",
-        "hero_type": "Priest",
+        "type": "Priest",
         "statistics": {
             "hp": 150,
             "regeneration_per_minute": 30,
@@ -1184,10 +1203,10 @@
         }
     },
     {
-        "id": 18003,
+        "id": 10047,
         "name": "Blind Lame Priest",
         "introduced": "Age of Empires",
-        "hero_type": "Priest",
+        "type": "Priest",
         "statistics": {
             "hp": 25,
             "regeneration_per_minute": 30,
@@ -1201,10 +1220,10 @@
         }
     },
     {
-        "id": 18004,
+        "id": 10048,
         "name": "Corlis",
         "introduced": "Age of Empires",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 100,
             "regeneration_per_minute": 30,
@@ -1217,10 +1236,10 @@
         }
     },
     {
-        "id": 18006,
+        "id": 10049,
         "name": "Hector",
         "introduced": "Age of Empires",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 350,
             "regeneration_per_minute": 30,
@@ -1234,10 +1253,10 @@
         }
     },
     {
-        "id": 18007,
+        "id": 10050,
         "name": "Hersifon",
         "introduced": "Age of Empires",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 150,
             "regeneration_per_minute": 30,
@@ -1250,10 +1269,10 @@
         }
     },
     {
-        "id": 18008,
+        "id": 10051,
         "name": "Jason",
         "introduced": "Age of Empires",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 180,
             "regeneration_per_minute": 30,
@@ -1266,10 +1285,10 @@
         }
     },
     {
-        "id": 18009,
+        "id": 10052,
         "name": "Mor Havoc",
         "introduced": "Age of Empires",
-        "hero_type": "Priest",
+        "type": "Civilian",
         "statistics": {
             "hp": 180,
             "regeneration_per_minute": 30,
@@ -1282,10 +1301,10 @@
         }
     },
     {
-        "id": 18010,
+        "id": 10053,
         "name": "Perseus",
         "introduced": "Age of Empires",
-        "hero_type": "Archer",
+        "type": "Archer",
         "statistics": {
             "hp": 100,
             "regeneration_per_minute": 30,
@@ -1299,10 +1318,10 @@
         }
     },
     {
-        "id": 18011,
+        "id": 10054,
         "name": "Vercingetorix",
         "introduced": "Rise of Rome",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 350,
             "regeneration_per_minute": 30,
@@ -1316,10 +1335,10 @@
         }
     },
     {
-        "id": 18012,
+        "id": 10055,
         "name": "Tiberius",
         "introduced": "Age of Empires",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 250,
             "regeneration_per_minute": 30,
@@ -1332,10 +1351,10 @@
         }
     },
     {
-        "id": 18013,
+        "id": 10056,
         "name": "Xerxes",
         "introduced": "Age of Empires",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 200,
             "regeneration_per_minute": 30,
@@ -1348,10 +1367,10 @@
         }
     },
     {
-        "id": 18014,
+        "id": 10057,
         "name": "Archimedes",
         "introduced": "Rise of Rome",
-        "hero_type": "Priest",
+        "type": "Civilian",
         "statistics": {
             "hp": 25,
             "regeneration_per_minute": 30,
@@ -1366,10 +1385,10 @@
         }
     },
     {
-        "id": 18015,
+        "id": 10058,
         "name": "Caesar",
         "introduced": "Rise of Rome",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 350,
             "regeneration_per_minute": 30,
@@ -1383,10 +1402,10 @@
         }
     },
     {
-        "id": 18016,
+        "id": 10059,
         "name": "Cleopatra's Barge",
         "introduced": "Rise of Rome",
-        "hero_type": "Warship",
+        "type": "Warship",
         "statistics": {
             "hp": 500,
             "regeneration_per_minute": 30,
@@ -1402,10 +1421,10 @@
         }
     },
     {
-        "id": 18017,
+        "id": 10060,
         "name": "Hannibal",
         "introduced": "Rise of Rome",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 600,
             "regeneration_per_minute": 30,
@@ -1420,10 +1439,10 @@
         }
     },
     {
-        "id": 18018,
+        "id": 10061,
         "name": "Mark Antony",
         "introduced": "Rise of Rome",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 300,
             "regeneration_per_minute": 30,
@@ -1436,10 +1455,10 @@
         }
     },
     {
-        "id": 18019,
+        "id": 10062,
         "name": "Scipio",
         "introduced": "Rise of Rome",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 250,
             "regeneration_per_minute": 30,
@@ -1453,10 +1472,10 @@
         }
     },
     {
-        "id": 18020,
+        "id": 10063,
         "name": "Achilles",
         "introduced": "Definitive Edition",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 350,
             "regeneration_per_minute": 30,
@@ -1469,10 +1488,10 @@
         }
     },
     {
-        "id": 18021,
+        "id": 10064,
         "name": "Ajax",
         "introduced": "Definitive Edition",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 300,
             "regeneration_per_minute": 30,
@@ -1485,10 +1504,10 @@
         }
     },
     {
-        "id": 18022,
+        "id": 10065,
         "name": "Hero",
         "introduced": "Definitive Edition",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 220,
             "regeneration_per_minute": 30,
@@ -1501,10 +1520,10 @@
         }
     },
     {
-        "id": 18023,
+        "id": 10066,
         "name": "Lord Martek",
         "introduced": "Definitive Edition",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 16,
             "regeneration_per_minute": 30,
@@ -1517,10 +1536,10 @@
         }
     },
     {
-        "id": 18024,
+        "id": 10067,
         "name": "Muwatalli",
         "introduced": "Definitive Edition",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 200,
             "regeneration_per_minute": 30,
@@ -1534,10 +1553,10 @@
         }
     },
     {
-        "id": 18025,
+        "id": 10068,
         "name": "Odysseus",
         "introduced": "Definitive Edition",
-        "hero_type": "Archer",
+        "type": "Archer",
         "statistics": {
             "hp": 90,
             "regeneration_per_minute": 30,
@@ -1550,10 +1569,10 @@
         }
     },
     {
-        "id": 18026,
+        "id": 10069,
         "name": "Paris",
         "introduced": "Definitive Edition",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 200,
             "regeneration_per_minute": 30,
@@ -1567,10 +1586,10 @@
         }
     },
     {
-        "id": 18027,
+        "id": 10070,
         "name": "Pericles",
         "introduced": "Definitive Edition",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 180,
             "regeneration_per_minute": 30,
@@ -1583,10 +1602,10 @@
         }
     },
     {
-        "id": 18028,
+        "id": 10071,
         "name": "Prince Shotoku",
         "introduced": "Definitive Edition",
-        "hero_type": "Cavalry Archer",
+        "type": "Cavalry Archer",
         "statistics": {
             "hp": 200,
             "regeneration_per_minute": 30,
@@ -1601,10 +1620,10 @@
         }
     },
     {
-        "id": 18029,
+        "id": 10072,
         "name": "Ramesses",
         "introduced": "Definitive Edition",
-        "hero_type": "Cavalry Archer",
+        "type": "Cavalry Archer",
         "statistics": {
             "hp": 170,
             "regeneration_per_minute": 30,
@@ -1619,10 +1638,10 @@
         }
     },
     {
-        "id": 18030,
+        "id": 10073,
         "name": "Xanthippus",
         "introduced": "Definitive Edition",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 250,
             "regeneration_per_minute": 30,
@@ -1635,10 +1654,10 @@
         }
     },
     {
-        "id": 18031,
+        "id": 10074,
         "name": "Xu Fu",
         "introduced": "Definitive Edition",
-        "hero_type": "Archer",
+        "type": "Archer",
         "statistics": {
             "hp": 100,
             "regeneration_per_minute": 30,
@@ -1652,10 +1671,10 @@
         }
     },
     {
-        "id": 18032,
+        "id": 10075,
         "name": "Decebalus",
         "introduced": "Return of Rome",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 180,
             "regeneration_per_minute": 30,
@@ -1669,10 +1688,10 @@
         }
     },
     {
-        "id": 18033,
+        "id": 10076,
         "name": "Demetrius",
         "introduced": "Return of Rome",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 270,
             "regeneration_per_minute": 30,
@@ -1686,10 +1705,10 @@
         }
     },
     {
-        "id": 18034,
+        "id": 10077,
         "name": "Domitian",
         "introduced": "Return of Rome",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 320,
             "regeneration_per_minute": 30,
@@ -1704,10 +1723,10 @@
         }
     },
     {
-        "id": 18035,
+        "id": 10078,
         "name": "Hadrian",
         "introduced": "Return of Rome",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 200,
             "regeneration_per_minute": 30,
@@ -1721,10 +1740,10 @@
         }
     },
     {
-        "id": 18036,
+        "id": 10079,
         "name": "Hunting Wolf",
         "introduced": "Return of Rome",
-        "hero_type": "Animal",
+        "type": "Animal",
         "statistics": {
             "hp": 100,
             "regeneration_per_minute": 30,
@@ -1738,10 +1757,10 @@
         }
     },
     {
-        "id": 18037,
+        "id": 10080,
         "name": "Lysimachus",
         "introduced": "Return of Rome",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 250,
             "regeneration_per_minute": 30,
@@ -1755,10 +1774,10 @@
         }
     },
     {
-        "id": 18038,
+        "id": 10081,
         "name": "Ornlu the Wolf",
         "introduced": "Return of Rome",
-        "hero_type": "Animal",
+        "type": "Animal",
         "statistics": {
             "hp": 400,
             "regeneration_per_minute": 30,
@@ -1772,10 +1791,10 @@
         }
     },
     {
-        "id": 18039,
+        "id": 10082,
         "name": "Osroes I",
         "introduced": "Return of Rome",
-        "hero_type": "Cavalry Archer",
+        "type": "Cavalry Archer",
         "statistics": {
             "hp": 140,
             "regeneration_per_minute": 30,
@@ -1791,10 +1810,10 @@
         }
     },
     {
-        "id": 18039,
+        "id": 10083,
         "name": "Osroes I",
         "introduced": "Return of Rome",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 350,
             "regeneration_per_minute": 30,
@@ -1808,10 +1827,10 @@
         }
     },
     {
-        "id": 18040,
+        "id": 10084,
         "name": "Queen Zenobia",
         "introduced": "Return of Rome",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 135,
             "regeneration_per_minute": 30,
@@ -1827,10 +1846,10 @@
         }
     },
     {
-        "id": 18041,
+        "id": 10085,
         "name": "Sargon",
         "introduced": "Return of Rome",
-        "hero_type": "Infantry",
+        "type": "Infantry",
         "statistics": {
             "hp": 120,
             "regeneration_per_minute": 30,
@@ -1844,10 +1863,10 @@
         }
     },
     {
-        "id": 18042,
+        "id": 10086,
         "name": "Sargon of Akkadgon",
         "introduced": "Return of Rome",
-        "hero_type": "Cavalry",
+        "type": "Cavalry",
         "statistics": {
             "hp": 320,
             "regeneration_per_minute": 30,
@@ -1861,9 +1880,10 @@
         }
     },
     {
-        "id": 19001,
+        "id": 10087,
         "name": "Baby Prez",
         "introduced": "Rise of Rome",
+        "type": "Archer",
         "traning": {
             "trained_at": 21101,
             "cheat_code": "pow"
@@ -1879,9 +1899,10 @@
         }
     },
     {
-        "id": 19002,
+        "id": 10088,
         "name": "Big Bertha",
         "introduced": "Age of Empires",
+        "type":"Siegecraft",
         "traning": {
             "trained_at": 22302,
             "cheat_code": "big bertha",
@@ -1908,9 +1929,10 @@
         }
     },
     {
-        "id": 19003,
+        "id": 10089,
         "name": "Black Rider",
         "introduced": "Age of Empires",
+        "type":"Cavalry Archer",
         "traning": {
             "trained_at": 22302,
             "cheat_code": "black ride",
@@ -1932,9 +1954,10 @@
         }
     },
     {
-        "id": 19004,
+        "id": 10090,
         "name": "Flying Dutchman",
         "introduced": "Age of Empires",
+        "type":"Warship",
         "traning": {
             "trained_at": 21104,
             "cheat_code": "Flying Dutchman",
@@ -1960,9 +1983,10 @@
         }
     },
     {
-        "id": 19005,
+        "id": 10091,
         "name": "Laser Trooper",
         "introduced": "Age of Empires",
+        "type":"Archer",
         "traning": {
             "trained_at": 21101,
             "cheat_code": "photon man"
@@ -1978,9 +2002,10 @@
         }
     },
     {
-        "id": 19006,
+        "id": 10092,
         "name": "Medusa",
         "introduced": "Age of Empires",
+        "type":"Civilian",
         "traning": {
             "trained_at": 21101,
             "cheat_code": "MEDUSA",
@@ -2000,31 +2025,10 @@
         }
     },
     {
-        "id": 19007,
-        "name": "Medusa",
-        "introduced": "Age of Empires",
-        "traning": {
-            "trained_at": 21101,
-            "cheat_code": "MEDUSA",
-            "resources": {
-                "food": 60,
-                "gold": 40
-            }
-        },
-        "statistics": {
-            "hp": 25,
-            "melee_attack": 3,
-            "rate": 1.5,
-            "melee_armor": 1000,
-            "pierce_armor": 1000,
-            "speed": 1.1,
-            "line_of_sight": 4
-        }
-    },
-    {
-        "id": 19008,
+        "id": 10093,
         "name": "Nuke Trooper",
         "introduced": "Age of Empires",
+        "type":"Archer",
         "traning": {
             "trained_at": 21101,
             "cheat_code": "e=mc2 trooper"
@@ -2041,9 +2045,10 @@
         }
     },
     {
-        "id": 19009,
+        "id": 10094,
         "name": "Saint Francis",
         "introduced": "Rise of Rome",
+        "type":"Civilian",
         "traning": {
             "trained_at": 21101,
             "cheat_code": "Convert This!"
@@ -2061,9 +2066,10 @@
         }
     },
     {
-        "id": 19010,
+        "id": 10095,
         "name": "Stealth Archer",
         "introduced": "Age of Empires",
+        "type":"Archer",
         "traning": {
             "trained_at": 22201,
             "cheat_code": "DARK RAIN"
@@ -2080,9 +2086,10 @@
         }
     },
     {
-        "id": 19011,
+        "id": 10096,
         "name": "Winsett's other Z",
         "introduced": "Rise of Rome",
+        "type":"Cavalry Archer",
         "traning": {
             "trained_at": 21101,
             "cheat_code": "big momma"
@@ -2101,9 +2108,10 @@
         }
     },
     {
-        "id": 19012,
+        "id": 10097,
         "name": "Winsett's Z",
         "introduced": "Age of Empires",
+        "type":"Cavalry Archer",
         "traning": {
             "trained_at": 21101,
             "cheat_code": "big daddy"
@@ -2120,25 +2128,6 @@
             "pierce_armor": 0,
             "speed": 8,
             "line_of_sight": 17
-        }
-    },
-    {
-        "id": 19013,
-        "name": "Winsett's Z",
-        "introduced": "Rise of Rome",
-        "traning": {
-            "trained_at": 21101,
-            "cheat_code": "stormbilly"
-        },
-        "statistics": {
-            "hp": 100,
-            "melee_attack": 20,
-            "rate": 0.8,
-            "range": 15,
-            "melee_armor": 10,
-            "pierce_armor": 10,
-            "speed": 2,
-            "line_of_sight": 7
         }
     }
 ]

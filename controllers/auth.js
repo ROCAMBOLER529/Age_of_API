@@ -18,9 +18,12 @@ const login = async (req, res) => {
 const generarJWT = nombre => {
     return new Promise((resolve, reject) => {
         const payload = { nombre };
-        jwt.sign(payload, process.env.CLAVE, { expiresIn: '12h' }, (err, token) => {
-            if (err) reject(err);
-            else resolve(token);
+        jwt.sign(payload, process.env.TOKEN, { expiresIn: '12h' }, (err, token) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(token);
+            }
         });
     });
 }

@@ -2,31 +2,37 @@
     {
         "name": "aa",
         "password": "aa",
-        "rol": "std"
+        "rol": "std",
+        "banned": false
     },
     {
         "name": "bb",
         "password": "bb",
-        "rol": "std"
+        "rol": "std",
+        "banned": false
     },
     {
         "name": "cc",
         "password": "cc",
-        "rol": "std"
+        "rol": "std",
+        "banned": false
     },
     {
         "name": "dd",
         "password": "dd",
-        "rol": "mod"
+        "rol": "mod",
+        "banned": false
     },
     {
         "name": "ee",
         "password": "ee",
-        "rol": "mod"
+        "rol": "mod",
+        "banned": false
     },
     {
         "name": "ff",
         "password": "ff",
-        "rol": "adm"
+        "rol": "adm",
+        "banned": false
     }
 ]

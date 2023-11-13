@@ -6,8 +6,8 @@
 +------------------------------+
 */
 
-const data = require('../json/data.json');
-const { replaceChar } = require('../helpers/civilizations');
+const Civilization = require('../models/civilizations');
+const { replaceChar } = require('../helpers/helpers');
 
 const getAllCivs = (req, res) => {
     res.json(data.civilization);
@@ -117,7 +117,7 @@ const getAiNamesOfCiv = (req, res) => {
             civ
         });
     } else {
-        const bonuses = data.civilization[pos].AI_player_names;
+        const bonuses = data.civilization[pos].ai_player_names;
 
         res.json({
             status: "ok",
@@ -234,76 +234,8 @@ const getNavyOfCiv = (req, res) => {
     }
 }
 
-const getStoneAgeBuildingsOfCiv = (req, res) => {
-    let { civ } = req.params;
-
-    const possibleCiv = data.civilization.find(x => x.name.common == civ);
-
-    if(possibleCiv) {
-        res.json({
-            status: "ok",
-            civ: possibleCiv.buildings['Stone Age']
-        });
-    } else {
-        res.status(404).json({
-            status: "No encontrado",
-            civ
-        });
-    }
-}
-
-const getToolAgeBuildingsOfCiv = (req, res) => {
-    let { civ } = req.params;
-
-    const possibleCiv = data.civilization.find(x => x.name.common == civ);
-
-    if(possibleCiv) {
-        res.json({
-            status: "ok",
-            civ: possibleCiv.buildings['Tool Age']
-        });
-    } else {
-        res.status(404).json({
-            status: "No encontrado",
-            civ
-        });
-    }
-}
-
-const getBronzeAgeBuildingsOfCiv = (req, res) => {
-    let { civ } = req.params;
-
-    const possibleCiv = data.civilization.find(x => x.name.common == civ);
-
-    if(possibleCiv) {
-        res.json({
-            status: "ok",
-            civ: possibleCiv.buildings['Bronze Age']
-        });
-    } else {
-        res.status(404).json({
-            status: "No encontrado",
-            civ
-        });
-    }
-}
-
-const getIronAgeBuildingsOfCiv = (req, res) => {
-    let { civ } = req.params;
-
-    const possibleCiv = data.civilization.find(x => x.name.common == civ);
-
-    if(possibleCiv) {
-        res.json({
-            status: "ok",
-            civ: possibleCiv.buildings['Iron Age']
-        });
-    } else {
-        res.status(404).json({
-            status: "No encontrado",
-            civ
-        });
-    }
+const getBuildingOfCiv = (req, res) => {
+    
 }
 
 const getTechOfCiv = (req, res) => {
@@ -358,16 +290,10 @@ module.exports = {
 
     getBonusesOfCiv,
     getAiNamesOfCiv,
-    
     getInfantryOfCiv,
     getArcheryOfCiv,
     getCavalryOfCiv,
     getSiegeOfCiv,
     getAcademyOfCiv,
-    getNavyOfCiv,
-
-    getStoneAgeBuildingsOfCiv,
-    getToolAgeBuildingsOfCiv,
-    getBronzeAgeBuildingsOfCiv,
-    getIronAgeBuildingsOfCiv
+    getNavyOfCiv
 };
