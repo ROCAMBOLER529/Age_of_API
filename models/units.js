@@ -13,6 +13,7 @@ const unit = new Schema({
     id: Number,
     name: String,
     introduced: String,
+    type: String,
     age: Number,
     training: Object,
     statistics: Object

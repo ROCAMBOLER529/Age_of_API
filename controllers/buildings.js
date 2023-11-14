@@ -7,7 +7,7 @@
 */
 
 const Building = require("../models/buildings");
-const {replaceChar} = require('../helpers/helpers');
+const {replaceChar, oldReplace} = require('../helpers/helpers');
 
 const getAllBuildings = async (req, res) => {
     const buildings = await Building.find().exec();
@@ -25,7 +25,7 @@ const getAllBuildings = async (req, res) => {
 const getBuildingByName = async (req, res) => {
     let { name } = req.params
     
-    name = replaceChar("-", " ", name);
+    name = replaceChar(name);
     const buildings = await Building.findOne({ name }).exec();
 
     if (buildings) {
@@ -40,7 +40,7 @@ const getBuildingByName = async (req, res) => {
 const getBuildingsByIntroduced = async (req, res) => {
     let { introduced } = req.params
     
-    introduced = replaceChar("-", " ", introduced);
+    introduced = oldReplace(introduced);
     const buildings = await Building.find({ introduced }).exec();
 
     if (buildings) {
@@ -55,6 +55,7 @@ const getBuildingsByIntroduced = async (req, res) => {
 const getBuildingsByType = async (req, res) => {
     let { type } = req.params
     
+    type = replaceChar(type);
     const buildings = await Building.find({ type }).exec();
 
     if (buildings) {
@@ -83,17 +84,14 @@ const getBuildingsByAge = async (req, res) => {
 const getBuildingsByResource = async (req, res) => {
     let { resource } = req.params;
 
-    
+    resource = resource.toLowerCase();
     const buildings = await Building.find();
-    console.log(buildings);
-    const aux = buildings.filter(x => {
-        console.log(x);
-        console.log(x.hasOwnProperty('construction'));
-        return x.hasOwnProperty('construction')});
+    const aux = buildings.filter(x => x.construction != undefined);
     console.log(aux);
+    const filteredBuildings = aux.filter(x => x.construction.resources.hasOwnProperty(resource));
 
-    if (aux) {
-        res.json(aux);    
+    if (filteredBuildings) {
+        res.json(filteredBuildings);    
     } else {
         res.status(404).json({
             log: "Not found"
@@ -137,7 +135,6 @@ const addPlainBuilding = async (req, res) => {
         await building.save();
         res.json(building);
     } catch(e) {
-        console.log(e);
         res.json(e);
     }
 }
@@ -181,7 +178,6 @@ const addSimpleBuilding = async (req, res) => {
         await building.save();
         res.json(building);
     } catch(e) {
-        console.log(e);
         res.json(e);
     }
 }

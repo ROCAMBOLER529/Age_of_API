@@ -12,7 +12,7 @@ class Server {
     }
 
     cargarMiddleware() {
-        this.app.use( express.urlencoded() );        
+        this.app.use( express.urlencoded() ); 
     }
 
     cargarRoutes() {

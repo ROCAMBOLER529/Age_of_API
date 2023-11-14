@@ -1,12 +1,15 @@
 const jwt = require('jsonwebtoken');
 
-const { getUsuariosPorNombre_f } = require('../controllers/usuarios');
+const Usuario = require('../models/usuarios');
+const { getUsuariosByName } = require('../controllers/usuarios');
 
 const login = async (req, res) => {
-    const { nombre, clave } = req.body;
+    const { nombre } = req.body;
     // validar nombre, clave y usuario
 
-    const user = getUsuariosPorNombre_f(nombre);
+    const usuarios = await Usuario.find().exec();
+
+    const user = usuarios.find(x => x.name == nombre);
     const token = await generarJWT(nombre);
     
     res.json({

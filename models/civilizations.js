@@ -20,6 +20,6 @@ const civilization = new Schema({
     tech: Object
 });
 
-const Civilization = mongoose.model('civilizations', civilization);
+const Civilization = mongoose.model('civilization', civilization);
 
 module.exports = Civilization;

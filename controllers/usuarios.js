@@ -8,21 +8,6 @@
 
 const Usuario = require("../models/usuarios");
 
-// const getUsuariosPorNombre = (req, res) => {
-//     let { name } = req.params;
-    
-//     const civ = data.civilization.find(x => x.name.common == name);
-
-//     if (civ) {
-//         res.json(civ);
-//     } else {
-//         res.status(404).json({
-//             civ,
-//             status: "No encontrado"
-//         });
-//     }
-// }
-
 const getUsuarios = async (req, res) => {
     const usuarios = await Usuario.find().exec();
     
@@ -35,8 +20,14 @@ const getUsuarios = async (req, res) => {
     }
 }
 
+const getUsuariosByToken = async (nombre) => {
+    const usuarios = await Usuario.find({ name: nombre });
+    console.log(usuarios);
+    // return usuarios.name;
+}
+
 const getUsuariosByName = async (req, res) => {
-    const { name } = req.params;
+    let { name } = req.params;
     
     const usuarios = await Usuario.findOne({ name }).exec();
 
@@ -110,6 +101,7 @@ const deleteUsuario = async (req, res) => {
 
 module.exports = { 
     getUsuarios,
+    getUsuariosByToken,
     getUsuariosByName,
     getBannedUsuarios,
 

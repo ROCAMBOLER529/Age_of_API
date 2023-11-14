@@ -1,4 +1,4 @@
-const { getUsuariosPorNombre_f } = require('../controllers/usuarios');
+const { getUsuariosByToken } = require('../controllers/usuarios');
 const jwt = require('jsonwebtoken');
 
 const esAdmin = (req, res, next) => {
@@ -24,11 +24,10 @@ const esAdmin = (req, res, next) => {
 const validarJWT = (req, res, next) => {
     const token = req.header('x-token');
     const { nombre } = req.body
-    console.log(nombre);
 
     try {
         const { nombreUser } = jwt.verify(token, process.env.TOKEN);
-        const usuarioExistente = getUsuariosPorNombre_f(nombre);
+        const usuarioExistente = getUsuariosByToken(nombre);
 
         if (usuarioExistente) {
             req.usuario = usuarioExistente;
@@ -39,7 +38,6 @@ const validarJWT = (req, res, next) => {
             });
         }
 
-        next();
     } catch(e) {
         res.status(500).json({
             e,
@@ -48,4 +46,20 @@ const validarJWT = (req, res, next) => {
     }
 }
 
-module.exports = { esAdmin, validarJWT };
+// const validateRol = (req, res, next) => {
+//     const usuario = req.body.nombre;
+    
+
+//     if (!usuario || rol != "mod" || rol != "adm" || !banned) {
+//         res.status(403).json({
+//             log: "Access denied"
+//         });
+//     } else {
+//         next();
+//     }
+// }
+
+module.exports = { 
+    esAdmin, 
+    validarJWT 
+};

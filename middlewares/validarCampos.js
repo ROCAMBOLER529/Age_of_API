@@ -14,4 +14,17 @@ const validarName = (req, res, next) => {
     }
 }
 
-module.exports = { validarName};
+const validarBody = (req, res, next) => {
+    const body = Object.entries(req.body).map(x => x[1]).flat();
+
+    body.map(x => {
+        if (x == "" || x == undefined) {
+            res.status(400).json({
+                log: "Some of the fields are incomplete"
+            })
+        }
+    });
+    next();
+}
+
+module.exports = { validarName, validarBody };
