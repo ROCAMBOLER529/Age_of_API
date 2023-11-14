@@ -3,7 +3,7 @@
         "id": 10001,
         "name": "Clubman",
         "introduced": "Age of Empires",
-        "type": "Infantry",
+        "type": "infantry",
         "age": 1,
         "traning": {
             "trained_at": 22101,
@@ -27,7 +27,7 @@
         "id": 10002,
         "name": "Axeman",
         "introduced": "Age of Empires",
-        "type": "Infantry",
+        "type": "infantry",
         "age": 2,
         "traning": {
             "prerequisite": "Battle Axe",
@@ -52,7 +52,7 @@
         "id": 10003,
         "name": "Slinger",
         "introduced": "Rise of Rome",
-        "type": "Infantry",
+        "type": "infantry",
         "age": 2,
         "traning": {
             "trained_at": 22101,
@@ -81,7 +81,7 @@
         "id": 10004,
         "name": "Short Swordsman",
         "introduced": "Age of Empires",
-        "type": "Infantry",
+        "type": "infantry",
         "age": 3,
         "traning": {
             "trained_at": 22101,
@@ -106,7 +106,7 @@
         "id": 10005,
         "name": "Broad Swordsman",
         "introduced": "Age of Empires",
-        "type": "Infantry",
+        "type": "infantry",
         "age": 3,
         "traning": {
             "trained_at": 22101,
@@ -131,7 +131,7 @@
         "id": 10006,
         "name": "Long Swordsman",
         "introduced": "Age of Empires",
-        "type": "Infantry",
+        "type": "infantry",
         "age": 4,
         "traning": {
             "trained_at": 22101,
@@ -156,7 +156,7 @@
         "id": 10007,
         "name": "Legionary",
         "introduced": "Age of Empires",
-        "type": "Infantry",
+        "type": "infantry",
         "age": 4,
         "traning": {
             "trained_at": 22101,
@@ -181,7 +181,7 @@
         "id": 10008,
         "name": "Bowman",
         "introduced": "Age of Empires",
-        "type": "Archer",
+        "type": "archery",
         "age": 2,
         "traning": {
             "trained_at": 22201,
@@ -210,7 +210,7 @@
         "id": 10009,
         "name": "Improved Bowman",
         "introduced": "Age of Empires",
-        "type": "Archer",
+        "type": "archery",
         "age": 3,
         "traning": {
             "trained_at": 22201,
@@ -238,7 +238,7 @@
         "id": 10010,
         "name": "Composite Bowman",
         "introduced": "Age of Empires",
-        "type": "Archer",
+        "type": "archery",
         "age": 3,
         "traning": {
             "trained_at": 22201,
@@ -266,7 +266,7 @@
         "id": 10011,
         "name": "Chariot Archer",
         "introduced": "Age of Empires",
-        "type": ["Cavalry", "Archer"],
+        "type": "archery",
         "age": 3,
         "traning": {
             "trained_at": 22201,
@@ -294,7 +294,7 @@
         "id": 10012,
         "name": "Horse Archer",
         "introduced": "Age of Empires",
-        "type": ["Cavalry", "Archer"],
+        "type": "archery",
         "age": 4,
         "traning": {
             "trained_at": 22201,
@@ -322,7 +322,7 @@
         "id": 12402,
         "name": "Heavy Horse Archer",
         "introduced": "Age of Empires",
-        "type": ["Cavalry", "Archer"],
+        "type": "archery",
         "age": 4,
         "traning": {
             "trained_at": 22201,
@@ -350,7 +350,7 @@
         "id": 10013,
         "name": "Elephant Archer",
         "introduced": "Age of Empires",
-        "type": ["Cavalry", "Archer"],
+        "type": "archery",
         "age": 4,
         "traning": {
             "trained_at": 22201,
@@ -378,7 +378,7 @@
         "id": 10014,
         "name": "Scout",
         "introduced": "Age of Empires",
-        "type": "Cavalry",
+        "type": "cavalry",
         "age": 2,
         "traning": {
             "trained_at": 22202,
@@ -403,7 +403,7 @@
         "id": 10015,
         "name": "Chariot",
         "introduced": "Age of Empires",
-        "type": "Cavalry",
+        "type": "cavalry",
         "age": 3,
         "traning": {
             "trained_at": 22202,
@@ -429,7 +429,7 @@
         "id": 10016,
         "name": "Camel Rider",
         "introduced": "Age of Empires",
-        "type": "Cavalry",
+        "type": "cavalry",
         "age": 3,
         "traning": {
             "trained_at": 22202,
@@ -455,7 +455,7 @@
         "id": 10017,
         "name": "Scythe Chariot",
         "introduced": "Age of Empires",
-        "type": "Cavalry",
+        "type": "cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -482,7 +482,7 @@
         "id": 10018,
         "name": "Heavy Cavalry",
         "introduced": "Age of Empires",
-        "type": "Cavalry",
+        "type": "cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -508,7 +508,7 @@
         "id": 10019,
         "name": "Cataphract",
         "introduced": "Age of Empires",
-        "type": "Cavalry",
+        "type": "cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -534,7 +534,7 @@
         "id": 10020,
         "name": "War Elephant",
         "introduced": "Age of Empires",
-        "type": "Cavalry",
+        "type": "cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -561,6 +561,7 @@
         "id": 10021,
         "name": "Armored Elephant",
         "introduced": "Rise of Rome",
+        "type":"cavalry",
         "age": 4,
         "traning": {
             "trained_at": 22202,
@@ -587,7 +588,7 @@
         "id": 10022,
         "name": "Stone Thrower",
         "introduced": "Age of Empires",
-        "type": "Cavalry",
+        "type": "siege",
         "age": 3,
         "traning": {
             "trained_at": 22302,
@@ -617,7 +618,7 @@
         "id": 10023,
         "name": "Catapult",
         "introduced": "Age of Empires",
-        "type": "Siegecraft",
+        "type": "siege",
         "age": 4,
         "traning": {
             "trained_at": 22302,
@@ -647,7 +648,7 @@
         "id": 10024,
         "name": "Heavy Catapult",
         "introduced": "Age of Empires",
-        "type": "Siegecraft",
+        "type": "siege",
         "age": 4,
         "traning": {
             "trained_at": 22302,
@@ -677,7 +678,7 @@
         "id": 10025,
         "name": "Ballista",
         "introduced": "Age of Empires",
-        "type": "Siegecraft",
+        "type": "siege",
         "age": 4,
         "traning": {
             "trained_at": 22302,
@@ -706,7 +707,7 @@
         "id": 10026,
         "name": "Helepolis",
         "introduced": "Age of Empires",
-        "type": "Siegecraft",
+        "type": "siege",
         "age": 4,
         "traning": {
             "trained_at": 22302,
@@ -735,7 +736,7 @@
         "id": 10027,
         "name": "Hoplite",
         "introduced": "Age of Empires",
-        "type":"Infantry",
+        "type":"academy",
         "age": 3,
         "traning": {
             "trained_at": 22303,
@@ -760,7 +761,7 @@
         "id": 10028,
         "name": "Phalangite",
         "introduced": "Age of Empires",
-        "type":"Infantry",
+        "type":"academy",
         "age": 4,
         "traning": {
             "trained_at": 22303,
@@ -785,7 +786,7 @@
         "id": 10029,
         "name": "Centurion",
         "introduced": "Age of Empires",
-        "type":"Infantry",
+        "type":"academy",
         "age": 4,
         "traning": {
             "trained_at": 22303,
@@ -810,7 +811,7 @@
         "id": 10030,
         "name": "Villager",
         "introduced": "Age of Empires",
-        "type":"Civilian",
+        "type":"misc",
         "age": 1,
         "traning": {
             "trained_at": 21101,
@@ -837,7 +838,7 @@
         "id": 10031,
         "name": "Priest",
         "introduced": "Age of Empires",
-        "type":"Civilian",
+        "type":"misc",
         "age": 3,
         "traning": {
             "trained_at": 22301,
@@ -862,7 +863,7 @@
         "id": 10032,
         "name": "Trade Cart",
         "introduced": "Return of Rome",
-        "type":"Civilian",
+        "type":"misc",
         "age": 3,
         "traning": {
             "trained_at": 21201,
@@ -884,7 +885,7 @@
         "id": 10033,
         "name": "Fishing Boat",
         "introduced": "Age of Empires",
-        "type":"Ship",
+        "type":"navy",
         "age": 1,
         "traning": {
             "trained_at": 21104,
@@ -906,7 +907,7 @@
         "id": 10034,
         "name": "Light Transport",
         "introduced": "Age of Empires",
-        "type":"Ship",
+        "type":"navy",
         "age": 2,
         "traning": {
             "trained_at": 21104,
@@ -928,7 +929,7 @@
         "id": 10035,
         "name": "Scout Ship",
         "introduced": "Age of Empires",
-        "type":"Warship",
+        "type":"navy",
         "age": 2,
         "traning": {
             "trained_at": 21104,
@@ -953,7 +954,7 @@
         "id": 10036,
         "name": "Fishing Ship",
         "introduced": "Age of Empires",
-        "type":"Ship",
+        "type":"navy",
         "age": 3,
         "traning": {
             "trained_at": 21104,
@@ -975,7 +976,7 @@
         "id": 10037,
         "name": "Trade Boat",
         "introduced": "Age of Empires",
-        "type":"Ship",
+        "type":"navy",
         "age": 3,
         "traning": {
             "trained_at": 21104,
@@ -997,7 +998,7 @@
         "id": 10038,
         "name": "Merchant Ship",
         "introduced": "Age of Empires",
-        "type":"Ship",
+        "type":"navy",
         "age": 3,
         "traning": {
             "trained_at": 21104,
@@ -1019,7 +1020,7 @@
         "id": 10039,
         "name": "War Galley",
         "introduced": "Age of Empires",
-        "type":"Warship",
+        "type":"navy",
         "age": 3,
         "traning": {
             "trained_at": 21104,
@@ -1044,7 +1045,7 @@
         "id": 10040,
         "name": "Heavy Transport",
         "introduced": "Age of Empires",
-        "type":"Warship",
+        "type":"navy",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1066,7 +1067,7 @@
         "id": 10041,
         "name": "War Galley",
         "introduced": "Age of Empires",
-        "type":"Warship",
+        "type":"navy",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1091,7 +1092,7 @@
         "id": 10042,
         "name": "Catapult Trireme",
         "introduced": "Age of Empires",
-        "type":"Warship",
+        "type":"navy",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1118,7 +1119,7 @@
         "id": 10043,
         "name": "Juggernaut",
         "introduced": "Age of Empires",
-        "type":"Warship",
+        "type":"navy",
         "age": 4,
         "traning": {
             "trained_at": 21104,
@@ -1145,7 +1146,7 @@
         "id": 10044,
         "name": "Fire Galley",
         "introduced": "Rise of Rome",
-        "type":"Warship",
+        "type":"navy",
         "age": 4,
         "traning": {
             "trained_at": 21104,

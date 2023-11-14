@@ -1,5 +1,226 @@
 [
     {
+        "id": 1000,
+        "name": {
+            "common": "Gaia",
+            "historical": ""
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "East Asian",
+            "continent": "",
+            "image": ""
+        },
+        "bonuses": {
+            "features": "",
+            "single_bonus": [
+                ""
+            ],
+            "team_bonus": ""
+        },
+        "ai_player_names": [
+            ""
+        ],
+        "units": {
+            "infantry": [
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
+            ],
+            "archery": [
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
+            ],
+            "cavalry": [
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
+            ],
+            "siege": [
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
+            ],
+            "academy": [
+                10027,
+                10028,
+                10029
+            ],
+            "navy": [
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
+            ],
+            "misc": [
+                10030,
+                10031,
+                10032
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
+            ],
+            "tool_age": [
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
+            ],
+            "bronze_age": [
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
+            ],
+            "iron_age": [
+                20021,
+                20022,
+                20023,
+                20024
+            ]
+        },
+        "tech": {
+            "town_center": [
+                30001,
+                30002,
+                30003,
+                30004
+            ],
+            "barracks": [
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
+            ],
+            "storage_pit": [
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
+            ],
+            "dock": [
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
+            ],
+            "granary": [
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
+            ],
+            "archery_range": [
+                30017,
+                30018,
+                30019
+            ], 
+            "market": [
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
+            ],
+            "stable": [
+                30020,
+                30021,
+                30022,
+                30023
+            ],
+            "goverment_center": [
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
+            ],
+            "temple": [
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
+
+            ],
+            "siege_workshop": [
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
+            ]
+        }
+    },
+    {
         "id": 1001,
         "name": {
             "common": "Assyrians",
@@ -37,172 +258,198 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Short Swordsman",
-                "Broad Swordsman",
-                "Long Swordsman",
-                "Legionary"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Chariot Archer",
-                "Horse Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012
             ],
             "cavalry": [
-                "Scout",
-                "Camel Rider",
-                "Chariot",
-                "Cavalry",
-                "Heavy Cavalry",
-                "Cataphract"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult",
-                "Heavy Catapult",
-                "Ballista",
-                "Helepolis"
+                10022,
+                10023,
+                10024,
+                10025
             ],
             "academy": [
-                "Hoplite"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Fishing Ship",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme",
-                "Fire Galley"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Academy",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",
-                "City Watch",                
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-
-                "Metalurgy",
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Craftmanship",
-                "Siegecraft",
-                "Coinage",
-                "Irrigation"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Writing",
-                "Logistics",
-                "Urbanization",
-
-                "Ballistics",
-                "Alchemy",
-                "Engineering",
-                "Conscription"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
-                "Mysticism",
-                "Polytheism",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Afterlife",
-                "Monotheism",
-                "Fanaticism",
-
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 2001,
+        "id": 1002,
         "name": {
             "common": "Babylonians",
             "historical": "Babylonian Empire"
@@ -241,175 +488,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Slinger",
-                "Short Swordsman",
-                "Broad Swordsman",
-                "Long Swordsman",
-                "Legionary"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Improved Bowman",
-                "Composite Bowman",
-                "Chariot Archer",
-                "Horse Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Camel Rider",
-                "Chariot",
-                "Scythe Chariot",
-                "Cavalry"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult",
-                "Heavy Catapult"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
             ],
             "academy": [
-                "Hoplite"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Fishing Ship",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Fire Galley"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Academy",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",
-                "City Watch",                
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Metalurgy",
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Craftmanship",
-                "Siegecraft",
-                "Coinage",
-                "Irrigation"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Architecture",
-                "Logistics",
-                "Urbanization",
-
-                "Aristocracy",
-                "Ballistics",
-                "Alchemy",
-                "Engineering",
-                "Conscription"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
-                "Mysticism",
-                "Polytheism",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Afterlife",
-                "Monotheism",
-                "Fanaticism",
-
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 3001,
+        "id": 1003,
         "name": {
             "common": "Choson",
             "historical": "Kingdom of Gojoseon"
@@ -448,164 +725,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Slinger",
-                "Short Swordsman",
-                "Broad Swordsman",
-                "Long Swordsman",
-                "Legionary"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Improved Bowman",
-                "Horse Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Cavalry",
-                "Heavy Cavalry",
-                "Cataphract"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Ballista",
-                "Helepolis"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
             ],
             "academy": [
-                "Hoplite"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Fishing Ship",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Academy",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",
-                "City Watch",                
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Metalurgy"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Craftmanship",
-                "Siegecraft",
-                "Coinage",
-                "Irrigation"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Architecture",
-                "Logistics",
-
-                "Ballistics",
-                "Conscription"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
-                "Mysticism",
-                "Polytheism",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Afterlife",
-                "Monotheism",
-                "Fanaticism",
-
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 1002,
+        "id": 1004,
         "name": {
             "common": "Egyptians",
             "historical": "Egyptian Kingdom"
@@ -644,170 +962,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Slinger",
-                "Short Swordsman"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Improved Bowman",
-                "Composite Bowman",
-                "Chariot Archer",
-                "Elephant Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Camel Rider",
-                "Chariot",
-                "Scythe Chariot",
-                "War Elephant"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
             ],
             "academy": [
-                "Hoplite"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Fishing Ship",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme",
-                "Catapult Trireme",
-                "Juggernaut"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Academy",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",
-                "City Watch",                
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-
-                "Metalurgy",
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Craftmanship",
-                "Coinage",
-                "Irrigation"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Architecture",
-                "Logistics",
-                "Urbanization",
-
-                "Aristocracy",
-                "Ballistics",
-                "Alchemy",
-                "Engineering",
-                "Conscription"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
-                "Mysticism",
-                "Polytheism",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Afterlife",
-                "Monotheism",
-                "Fanaticism",
-
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 4001,
+        "id": 1005,
         "name": {
             "common": "Greeks",
             "historical": "Greek Civilization"
@@ -842,173 +1195,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Slinger",
-                "Short Swordsman"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Cavalry",
-                "Heavy Cavalry"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult",
-                "Heavy Catapult",
-                "Ballista",
-                "Helepolis"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
             ],
             "academy": [
-                "Hoplite",
-                "Phalangite",
-                "Centurion"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Fishing Ship",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme",
-                "Catapult Trireme",
-                "Juggernaut",
-                "Fire Galley"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Academy",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",
-                "City Watch",                
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry",
-                "Iron Shield",
-                "Tower Shield"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Craftmanship",
-                "Siegecraft",
-                "Coinage",
-                "Irrigation"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Architecture",
-                "Logistics",
-                "Urbanization",
-
-                "Aristocracy",
-                "Ballistics",
-                "Alchemy",
-                "Engineering"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
-                "Mysticism",
-                "Polytheism",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Afterlife",
-                "Monotheism",
-                "Fanaticism",
-
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 2002,
+        "id": 1006,
         "name": {
             "common": "Hittites",
             "historical": "Hittite Empire"
@@ -1047,161 +1432,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Short Swordsman",
-                "Broad Swordsman"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Chariot Archer",
-                "Horse Archer",
-                "Heavy Horse Archer",
-                "Elephant Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Camel Rider",
-                "Chariot",
-                "Scythe Chariot",
-                "War Elephant",
-                "Armored Elephant"                
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult",
-                "Heavy Catapult"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
             ],
             "academy": [
-                "Hoplite",
-                "Phalangite"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme",
-                "Fire Galley"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Academy",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",
-                "City Watch",                
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry",
-                "Iron Shield",
-                "Tower Shield"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Craftmanship",
-                "Siegecraft",
-                "Coinage"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Logistics",
-
-                "Aristocracy",
-                "Ballistics",
-                "Alchemy",
-                "Engineering"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology"
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
+
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 4002,
+        "id": 1007,
         "name": {
             "common": "Minoans",
             "historical": "Minoan Civilization"
@@ -1239,163 +1668,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Short Swordsman",
-                "Broad Swordsman",
-                "Long Swordsman"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Improved Bowman",
-                "Composite Bowman"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Camel Rider",
-                "Cavalry"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult",
-                "Heavy Catapult",
-                "Ballista",
-                "Helepolis"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
             ],
             "academy": [
-                "Hoplite",
-                "Phalangite",
-                "Centurion"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Academy",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",
-                "City Watch",                
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry",
-                "Iron Shield",
-                "Tower Shield"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Craftmanship",
-                "Siegecraft",
-                "Coinage",
-                "Irrigation"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Architecture",
-                "Logistics",
-
-                "Aristocracy",
-                "Ballistics",
-                "Alchemy",
-                "Engineering",
-                "Conscription"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Medicine",
-                "Polytheism"
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
+
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 2003,
+        "id": 1008,
         "name": {
             "common": "Persians",
             "historical": "Achaemenid Empire"
@@ -1433,170 +1904,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Short Swordsman",
-                "Broad Swordsman",
-                "Long Swordsman",
-                "Legionary"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Improved Bowman",
-                "Composite Bowman",
-                "Horse Archer",
-                "Heavy Horse Archer",
-                "Elephant Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Camel Rider",
-                "Cavalry",
-                "Heavy Cavalry",
-                "Cataphract",
-                "War Elephant",
-                "Armored Elephant"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
+            ],
+            "academy": [
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme",
-                "Catapult Trireme",
-                "Juggernaut"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",          
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry",
-                "Iron Shield",
-                "Tower Shield"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Coinage"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Architecture",
-                "Logistics",
-                "Urbanization",
-
-                "Aristocracy",
-                "Ballistics",
-                "Alchemy",
-                "Engineering",
-                "Conscription"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
-                "Mysticism",
-                "Polytheism",
-                
-                "Afterlife",
-                "Monotheism",
-                "Fanaticism",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 5001,
+        "id": 1009,
         "name": {
             "common": "Carthagians",
             "historical": "Carthagian Empire"
@@ -1631,170 +2137,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Short Swordsman",
-                "Broad Swordsman",
-                "Long Swordsman",
-                "Legionary"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Improved Bowman",
-                "Composite Bowman",
-                "Horse Archer",
-                "Heavy Horse Archer",
-                "Elephant Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Camel Rider",
-                "Cavalry",
-                "Heavy Cavalry",
-                "Cataphract",
-                "War Elephant",
-                "Armored Elephant"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
+            ],
+            "academy": [
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme",
-                "Catapult Trireme",
-                "Juggernaut"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",          
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry",
-                "Iron Shield",
-                "Tower Shield"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Coinage"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Architecture",
-                "Logistics",
-                "Urbanization",
-
-                "Aristocracy",
-                "Ballistics",
-                "Alchemy",
-                "Engineering",
-                "Conscription"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
-                "Mysticism",
-                "Polytheism",
-                
-                "Afterlife",
-                "Monotheism",
-                "Fanaticism",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 3002,
+        "id": 1010,
         "name": {
             "common": "Lac Viet",
             "historical": "Louyue"
@@ -1827,167 +2368,205 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Short Swordsman",
-                "Broad Swordsman",
-                "Long Swordsman"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Improved Bowman",
-                "Composite Bowman",
-                "Horse Archer",
-                "Chariot Archer",
-                "Heavy Horse Archer",
-                "Elephant Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Chariot",
-                "Scythe Chariot",
-                "Cavalry",
-                "Heavy Cavalry",
-                "War Elephant",
-                "Armored Elephant"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult",
-                "Heavy Catapult",
-                "Ballista"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
             ],
             "academy": [
-                "Hoplite"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Fishing Ship",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme",
-                "Catapult Trireme"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Priest",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Temple",
-                "Siege Workshop",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",          
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry",
-                "Iron Shield",
-                "Tower Shield"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Craftmanship",
-                "Coinage",
-                "Irrigation"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Nobility",
-                "Writing",
-                "Architecture",
-                "Logistics",
-
-                "Ballistics",
-                "Alchemy",
-                "Conscription"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     },
     {
-        "id": 5002,
+        "id": 1011,
         "name": {
             "common": "Macedoninans",
             "historical": "Kingdom of Macedonia"
@@ -2020,157 +2599,657 @@
         ],
         "units": {
             "infantry": [
-                "Clubman",
-                "Axeman",
-                "Short Swordsman",
-                "Broad Swordsman"
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
             ],
             "archery": [
-                "Bowman",
-                "Improved Bowman",
-                "Composite Bowman",
-                "Horse Archer",
-                "Heavy Horse Archer"
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
             ],
             "cavalry": [
-                "Scout",
-                "Cavalry",
-                "Heavy Cavalry",
-                "Cataphract",
-                "War Elephant",
-                "Armored Elephant"
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
             ],
             "siege": [
-                "Stone Thrower",
-                "Catapult",
-                "Ballista"
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
             ],
             "academy": [
-                "Hoplite",
-                "Phalangite",
-                "Centurion"
+                10027,
+                10028,
+                10029
             ],
             "navy": [
-                "Fishing Boat",
-                "Fishing Ship",
-                "Ligth Transport",
-                "Heavy Transport",
-                "Trade Boat",
-                "Merchant Ship",
-                "Scout Ship",
-                "War Galley",
-                "Trireme",
-                "Catapult Trireme"
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
             ],
             "misc": [
-                "Villager",
-                "Trade cart"
+                10030,
+                10031,
+                10032
             ]
         },
         "buildings": {
             "stone_age": [
-                "Town Center",
-                "Barracks",
-                "Storage Pit",
-                "Dock",
-                "Granary",
-                "House"
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
             ],
             "tool_age": [
-                "Archery Range",
-                "Market",
-                "Watch Tower",
-                "Stable",
-                "Small Wall",
-                "Small Gate",
-                "Farm"
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
             ],
             "bronze_age": [
-                "Goverment Center",
-                "Siege Workshop",
-                "Sentry Tower",
-                "Medium Wall",
-                "Medium Gate"
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
             ],
             "iron_age": [
-                "Wonder",
-                "Guard Tower",
-                "Ballista Tower",
-                "Fortified Wall",
-                "Fortified Gate"
+                20021,
+                20022,
+                20023,
+                20024
             ]
         },
         "tech": {
             "town_center": [
-                "Tool Age",          
-                "Bronze Age",
-                "Iron Age"
+                30001,
+                30002,
+                30003,
+                30004
             ],
             "barracks": [
-                
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
             ],
             "storage_pit": [
-                "Toolworking",
-                "Leather Armor for Infantry",
-                "Leather Armor for Archers",
-                "Leather Armor for Cavalry",
-
-                "Metalworking",
-                "Scale Armor for Infantry",
-                "Scale Armor for Archery",
-                "Scale Armor for Cavalry",
-                "Bronze Shield",
-
-                "Chain Mail for Infantry",
-                "Chain Mail for Archery",
-                "Chain Mail for Cavalry",
-                "Iron Shield",
-                "Tower Shield"
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
             ],
             "dock": [
-                
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
             ],
             "granary": [
-                
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
             ],
             "archery_range": [
-                
+                30017,
+                30018,
+                30019
             ], 
             "market": [
-                "Woodworking",
-                "Stone Mining",
-                "Gold Mining",
-                "Domestication",
-
-                "Artesanship",
-                "Plow",
-                "Wheel",
-
-                "Coinage",
-                "Irrigation"
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
             ],
             "stable": [
-                
+                30020,
+                30021,
+                30022,
+                30023
             ],
             "goverment_center": [
-                "Writing",
-                "Architecture",
-                "Logistics",
-                "Urbanization",
-
-                "Aristocracy",
-                "Ballistics",
-                "Alchemy"
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
             ],
             "temple": [
-                "Astrology",
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
 
-                "Zealotry",
-                "Medicine",
-                "Theocracy"
             ],
             "siege_workshop": [
-                
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
+            ]
+        }
+    },
+    {
+        "id": 1012,
+        "name": {
+            "common": "Palmyrians",
+            "historical": "Palmyrene Empire"
+        },
+        "information": {
+            "introduced": "Rise of Rome",
+            "architecture": "Roman",
+            "continent": "Western Asia",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/7/7b/Palmyran_AOE_DE_ROR_icon.png/revision/latest?cb=20230611041552"
+        },
+        "bonuses": {
+            "features": ["Camel Units", "Trade"],
+            "single_bonus": [
+                "Villagers cost 75 food (+50%), but have armor (+1/+1) and work 25% faster",
+                "Start the game with +75 food",
+                "Camel Riders move 25% faster",
+                "Tributes are not taxed",
+                "Trade units return +20% gold*"
+            ],
+            "team_bonus": "Technologies researched 30% faster"
+        },
+        "ai_player_names": [
+            "Zenobia",
+            "Odaenathus",
+            "Vaballathus",
+            "Zobdas",
+            "Syphax",
+            "Massinissa",
+            "Jugurtha",
+            "Mithridates",
+            "Pharnaces",
+            "Temurides"
+        ],
+        "units": {
+            "infantry": [
+                10001,
+                10002,
+                10003,
+                10004,
+                10005
+            ],
+            "archery": [
+                10008,
+                10009,
+                10010,
+                10011,
+                10012
+            ],
+            "cavalry": [
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10020,
+                10021
+            ],
+            "siege": [
+                10022,
+                10023,
+                10024,
+                10025
+            ],
+            "academy": [
+                10027,
+                10028
+            ],
+            "navy": [
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10043
+            ],
+            "misc": [
+                10030,
+                10031,
+                10032
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
+            ],
+            "tool_age": [
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
+            ],
+            "bronze_age": [
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
+            ],
+            "iron_age": [
+                20021,
+                20022,
+                20023,
+                20024
+            ]
+        },
+        "tech": {
+            "town_center": [
+                30001,
+                30002,
+                30003,
+                30004
+            ],
+            "barracks": [
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
+            ],
+            "storage_pit": [
+                30049,
+                30050,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062
+            ],
+            "dock": [
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
+            ],
+            "granary": [
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
+            ],
+            "archery_range": [
+                30017,
+                30018,
+                30019
+            ], 
+            "market": [
+                30029,
+                30030,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30039
+            ],
+            "stable": [
+                30020,
+                30021,
+                30022,
+                30023
+            ],
+            "goverment_center": [
+                30064,
+                30065,
+                30066,
+                30068,
+                30070,
+                30071,
+                30073
+            ],
+            "temple": [
+                30042,
+                30043,
+                30045,
+                30046,
+                30047
+
+            ],
+            "siege_workshop": [
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
+            ]
+        }
+    },
+    {
+        "id": 1013,
+        "name": {
+            "common": "Phoenicians",
+            "historical": "Phoenician Civilization"
+        },
+        "information": {
+            "introduced": "Age of Empires",
+            "architecture": "Greek",
+            "continent": "Western Asia",
+            "image": "https://static.wikia.nocookie.net/ageofempires/images/8/82/Phoenician_AOE_DE_ROR_icon.png/revision/latest?cb=20230611042041"
+        },
+        "bonuses": {
+            "features": ["Elephant units", "Navy"],
+            "single_bonus": [
+                "Woodcutters work 15% faster and carry +2 wood.",
+                "Elephant units cost -25%.",
+                "Catapult Trireme and Juggernaut fire 33% faster.",
+                "Docks have +150 hit points, +4 line of sight."
+            ],
+            "team_bonus": "Archers have +2 line of sight"
+        },
+        "ai_player_names": [
+            "Hannibal",
+            "Hanno",
+            "Hannibal II",
+            "Hanno II",
+            "Hannibal III",
+            "Hanno III",
+            "Hannibal IV",
+            "Sanchuniathon",
+            "Zimrida",
+            "Plotinus",
+            "Porphyry",
+            "Philo",
+            "Ethbaal",
+            "Jezebel",
+            "Rid-Addi",
+            "Ahiram"
+        ],
+        "units": {
+            "infantry": [
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007
+            ],
+            "archery": [
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013
+            ],
+            "cavalry": [
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021
+            ],
+            "siege": [
+                10022,
+                10023,
+                10024,
+                10025,
+                10026
+            ],
+            "academy": [
+                10027,
+                10028,
+                10029
+            ],
+            "navy": [
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043
+            ],
+            "misc": [
+                10030,
+                10031,
+                10032
+            ]
+        },
+        "buildings": {
+            "stone_age": [
+                20001,
+                20002,
+                20003,
+                20004,
+                20005,
+                20006
+            ],
+            "tool_age": [
+                20007,
+                20008,
+                20009,
+                20010,
+                20011,
+                20012,
+                20013
+            ],
+            "bronze_age": [
+                20014,
+                20015,
+                20016,
+                20017,
+                20018,
+                20019,
+                20020
+            ],
+            "iron_age": [
+                20021,
+                20022,
+                20023,
+                20024
+            ]
+        },
+        "tech": {
+            "town_center": [
+                30001,
+                30002,
+                30003,
+                30004
+            ],
+            "barracks": [
+                30005,
+                30006,
+                30007,
+                30008,
+                30009
+            ],
+            "storage_pit": [
+                30049,
+                30050,
+                30051,
+                30052,
+                30053,
+                30054,
+                30055,
+                30056,
+                30057,
+                30058,
+                30059,
+                30060,
+                30061,
+                30062,
+                30063
+            ],
+            "dock": [
+                30010,
+                30011,
+                30012,
+                30013,
+                30014,
+                30015,
+                30016
+            ],
+            "granary": [
+                30074,
+                30075,
+                30076,
+                30077,
+                30078,
+                30079,
+                30080
+            ],
+            "archery_range": [
+                30017,
+                30018,
+                30019
+            ], 
+            "market": [
+                30029,
+                30030,
+                30031,
+                30032,
+                30033,
+                30034,
+                30035,
+                30036,
+                30037,
+                30038,
+                30039
+            ],
+            "stable": [
+                30020,
+                30021,
+                30022,
+                30023
+            ],
+            "goverment_center": [
+                30064,
+                30065,
+                30066,
+                30067,
+                30068,
+                30069,
+                30070,
+                30071,
+                30072,
+                30073
+            ],
+            "temple": [
+                30040,
+                30041,
+                30042,
+                30043,
+                30044,
+                30045,
+                30046,
+                30047
+
+            ],
+            "siege_workshop": [
+                30024,
+                30025,
+                30026
+            ],
+            "academy": [
+                30027,
+                30028
             ]
         }
     }

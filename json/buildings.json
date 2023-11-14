@@ -256,7 +256,7 @@
         "drop_off_resources": false,
         "can_hold_units": false,
         "construction": {
-            "prerequisite": 35202,
+            "prerequisite": 30075,
             "resources": {
                 "stone": 5
             },
@@ -282,7 +282,7 @@
         "drop_off_resources": false,
         "can_hold_units": false,
         "construction": {
-            "prerequisite": 35202,
+            "prerequisite": 30075,
             "resources": {
                 "stone": 30
             },
@@ -308,7 +308,7 @@
         "drop_off_resources": false,
         "can_hold_units": false,
         "construction": {
-            "prerequisite": 35201,
+            "prerequisite": 30074,
             "resources": {
                 "stone": 150
             },
@@ -472,7 +472,7 @@
         "drop_off_resources": false,
         "can_hold_units": false,
         "construction": {
-            "prerequisite": 35302,
+            "prerequisite": 30077,
             "resources": {
                 "stone": 5
             },
@@ -498,7 +498,7 @@
         "drop_off_resources": false,
         "can_hold_units": false,
         "construction": {
-            "prerequisite": 35302,
+            "prerequisite": 30077,
             "resources": {
                 "stone": 30
             },
@@ -524,7 +524,7 @@
         "drop_off_resources": false,
         "can_hold_units": true,
         "construction": {
-            "prerequisite": 35301,
+            "prerequisite": 30076,
             "resources": {
                 "stone": 150
             },
@@ -582,7 +582,7 @@
         "drop_off_resources": false,
         "can_hold_units": false,
         "construction": {
-            "prerequisite": 35402,
+            "prerequisite": 30079,
             "resources": {
                 "stone": 5
             },
@@ -608,7 +608,7 @@
         "drop_off_resources": false,
         "can_hold_units": false,
         "construction": {
-            "prerequisite": 35402,
+            "prerequisite": 30079,
             "resources": {
                 "stone": 30
             },
@@ -634,7 +634,7 @@
         "drop_off_resources": false,
         "can_hold_units": true,
         "construction": {
-            "prerequisite": 35401,
+            "prerequisite": 30078,
             "resources": {
                 "stone": 150
             },
@@ -665,7 +665,7 @@
         "drop_off_resources": false,
         "can_hold_units": true,
         "construction": {
-            "prerequisite": 34402,
+            "prerequisite": 30080,
             "resources": {
                 "stone": 150
             },
